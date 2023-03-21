@@ -4,6 +4,7 @@ import android.bluetooth.BluetoothCsipSetCoordinator
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
+import android.widget.Toast
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.widget.Toolbar
 import androidx.coordinatorlayout.widget.CoordinatorLayout
@@ -29,6 +30,18 @@ class MainActivity : AppCompatActivity() {
         var actionBarDrawerToggle = ActionBarDrawerToggle(this@MainActivity,drawerLayout,R.string.open_drawer,R.string.close_drawer)
         drawerLayout.addDrawerListener(actionBarDrawerToggle)
         actionBarDrawerToggle.syncState()
+        navigationView.setNavigationItemSelectedListener {
+            when(it.itemId){
+                R.id.one->Toast.makeText(this,"Introduction",Toast.LENGTH_LONG).show()
+                R.id.two->Toast.makeText(this,"Basics",Toast.LENGTH_LONG).show()
+                R.id.three->Toast.makeText(this,"Variables",Toast.LENGTH_LONG).show()
+                R.id.four->Toast.makeText(this,"Loops",Toast.LENGTH_LONG).show()
+                R.id.five->Toast.makeText(this,"Headers",Toast.LENGTH_LONG).show()
+                R.id.six->Toast.makeText(this,"Compiler",Toast.LENGTH_LONG).show()
+                R.id.seven->Toast.makeText(this,"Extras",Toast.LENGTH_LONG).show()
+            }
+            return@setNavigationItemSelectedListener true
+        }
     }
 
     fun setToolBar(){
