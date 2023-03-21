@@ -22,6 +22,11 @@ class MainActivity : AppCompatActivity() {
         coordinatorLayout = findViewById(R.id.coordinatorLayout)
         toolbar = findViewById(R.id.toolbar)
         navigationView = findViewById(R.id.navigationView)
+        setToolBar()
+    }
 
+    fun setToolBar(){
+        setSupportActionBar(toolbar)
+        supportActionBar?.title = "LearnCpp"
     }
 }
