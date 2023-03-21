@@ -4,15 +4,29 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
-
-
+    tools:context=".MainActivity"
+    android:id="@+id/drawerLayout"
+    >
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/coordinatorLayout"
+    >
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize"
+        android:background="#274b75"
+        android:id="@+id/toolbar"
+        />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
     <com.google.android.material.navigation.NavigationView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:headerLayout="@layout/header"
         app:menu="@menu/menu_drawer"
         android:layout_gravity="start"
+        android:id="@+id/navigationView"
         />
 
 </androidx.drawerlayout.widget.DrawerLayout>
