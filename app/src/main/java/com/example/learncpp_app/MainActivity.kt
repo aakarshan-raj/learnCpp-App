@@ -32,7 +32,11 @@ class MainActivity : AppCompatActivity() {
         actionBarDrawerToggle.syncState()
         navigationView.setNavigationItemSelectedListener {
             when(it.itemId){
-                R.id.one->Toast.makeText(this,"Introduction",Toast.LENGTH_LONG).show()
+                R.id.one->{
+                    supportFragmentManager.beginTransaction().replace(R.id.frame,Introduction()).commit()
+                    drawerLayout.closeDrawers()
+                }
+
                 R.id.two->Toast.makeText(this,"Basics",Toast.LENGTH_LONG).show()
                 R.id.three->Toast.makeText(this,"Variables",Toast.LENGTH_LONG).show()
                 R.id.four->Toast.makeText(this,"Loops",Toast.LENGTH_LONG).show()
