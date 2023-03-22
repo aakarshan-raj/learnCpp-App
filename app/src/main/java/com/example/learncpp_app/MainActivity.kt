@@ -1,16 +1,13 @@
 package com.example.learncpp_app
 
-import android.bluetooth.BluetoothCsipSetCoordinator
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
-import android.widget.Toast
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.widget.Toolbar
 import androidx.coordinatorlayout.widget.CoordinatorLayout
 import androidx.core.view.GravityCompat
 import androidx.drawerlayout.widget.DrawerLayout
-import com.google.android.material.internal.NavigationMenu
 import com.google.android.material.navigation.NavigationView
 
 class MainActivity : AppCompatActivity() {
@@ -37,12 +34,67 @@ class MainActivity : AppCompatActivity() {
                     drawerLayout.closeDrawers()
                 }
 
-                R.id.two->Toast.makeText(this,"Basics",Toast.LENGTH_LONG).show()
-                R.id.three->Toast.makeText(this,"Variables",Toast.LENGTH_LONG).show()
-                R.id.four->Toast.makeText(this,"Loops",Toast.LENGTH_LONG).show()
-                R.id.five->Toast.makeText(this,"Headers",Toast.LENGTH_LONG).show()
-                R.id.six->Toast.makeText(this,"Compiler",Toast.LENGTH_LONG).show()
-                R.id.seven->Toast.makeText(this,"Extras",Toast.LENGTH_LONG).show()
+                R.id.two-> {
+                    supportFragmentManager.beginTransaction().replace(R.id.frame,VariablesData()).commit()
+                    drawerLayout.closeDrawers()
+                }
+                R.id.three->{
+                    supportFragmentManager.beginTransaction().replace(R.id.frame,OperatorsExpression()).commit()
+                    drawerLayout.closeDrawers()
+                }
+                R.id.four->{
+                    supportFragmentManager.beginTransaction().replace(R.id.frame,ControlStructure()).commit()
+                    drawerLayout.closeDrawers()
+                }
+                R.id.five->{
+                    supportFragmentManager.beginTransaction().replace(R.id.frame,Functions()).commit()
+                    drawerLayout.closeDrawers()
+                }
+                R.id.six->{
+                    supportFragmentManager.beginTransaction().replace(R.id.frame,ArraysPointer()).commit()
+                    drawerLayout.closeDrawers()
+                }
+                R.id.seven->{
+                    supportFragmentManager.beginTransaction().replace(R.id.frame,ClassesObject()).commit()
+                    drawerLayout.closeDrawers()
+                }
+                R.id.eight->{
+                    supportFragmentManager.beginTransaction().replace(R.id.frame,InheritancePoly()).commit()
+                    drawerLayout.closeDrawers()
+                }
+
+                R.id.nine-> {
+                    supportFragmentManager.beginTransaction().replace(R.id.frame,Template()).commit()
+                    drawerLayout.closeDrawers()
+                }
+                R.id.ten->{
+                    supportFragmentManager.beginTransaction().replace(R.id.frame,STL()).commit()
+                    drawerLayout.closeDrawers()
+                }
+                R.id.eleven->{
+                    supportFragmentManager.beginTransaction().replace(R.id.frame,InputOutput()).commit()
+                    drawerLayout.closeDrawers()
+                }
+                R.id.twelve->{
+                    supportFragmentManager.beginTransaction().replace(R.id.frame,Memory()).commit()
+                    drawerLayout.closeDrawers()
+                }
+                R.id.thirteen->{
+                    supportFragmentManager.beginTransaction().replace(R.id.frame,Exception()).commit()
+                    drawerLayout.closeDrawers()
+                }
+                R.id.fourteen->{
+                    supportFragmentManager.beginTransaction().replace(R.id.frame,Multithreading()).commit()
+                    drawerLayout.closeDrawers()
+                }
+                R.id.fifteen->{
+                    supportFragmentManager.beginTransaction().replace(R.id.frame,Debug()).commit()
+                    drawerLayout.closeDrawers()
+                }
+                R.id.sixteen->{
+                    supportFragmentManager.beginTransaction().replace(R.id.frame,End()).commit()
+                    drawerLayout.closeDrawers()
+                }
             }
             return@setNavigationItemSelectedListener true
         }

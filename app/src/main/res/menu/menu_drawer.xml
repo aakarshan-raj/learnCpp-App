@@ -1,32 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 <item android:id="@+id/one"
-    android:title="Introduction"
+    android:title="@string/one"
     />
     <item
         android:id="@+id/two"
-        android:title="basics"
+        android:title="@string/two"
         />
     <item
         android:id="@+id/three"
-        android:title="Variables"
+        android:title="@string/three"
         />
     <item
         android:id="@+id/four"
-        android:title="Loops"
+        android:title="@string/four"
         />
     <item
         android:id="@+id/five"
-        android:title="Headers"
+        android:title="@string/five"
         />
     <item
         android:id="@+id/six"
-        android:title="compiler"
+        android:title="@string/six"
         />
     <item
         android:id="@+id/seven"
-        android:title="Extras"
+        android:title="@string/seven"
         />
+    <item android:id="@+id/eight"
+        android:title="@string/eight"
+        />
+    <item
+        android:id="@+id/nine"
+        android:title="@string/nine"
+        />
+    <item
+        android:id="@+id/ten"
+        android:title="@string/ten"
+        />
+    <item
+        android:id="@+id/eleven"
+        android:title="@string/eleven"
+        />
+    <item
+        android:id="@+id/twelve"
+        android:title="@string/twelve"
+        />
+    <item
+        android:id="@+id/thirteen"
+        android:title="@string/thirteen"
+        />
+    <item
+        android:id="@+id/fourteen"
+        android:title="@string/fourteen"
+        />
+    <item
+        android:id="@+id/fifteen"
+        android:title="@string/fifteen"
+        />
+    <item
+        android:id="@+id/sixteen"
+        android:title="@string/sixteen"
+        />
+
 
 
 </menu>

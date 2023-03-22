@@ -7,16 +7,14 @@ import android.view.View
 import android.view.ViewGroup
 
 
-class Introduction : Fragment() {
+class Memory : Fragment() {
 
-    lateinit var vieww: View
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        vieww =  inflater.inflate(R.layout.fragment_introduction, container, false)
-        return vieww
+        return inflater.inflate(R.layout.fragment_memory, container, false)
     }
 
 
