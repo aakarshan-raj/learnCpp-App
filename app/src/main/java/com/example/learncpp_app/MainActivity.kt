@@ -30,84 +30,84 @@ class MainActivity : AppCompatActivity() {
         navigationView.setNavigationItemSelectedListener {
             when(it.itemId){
                 R.id.one->{
-                    supportFragmentManager.beginTransaction().replace(R.id.frame,Introduction()).addToBackStack("one").commit()
+                    supportFragmentManager.beginTransaction().replace(R.id.frame,Introduction()).commit()
                     supportActionBar?.setTitle("Introduction to C++")
                     drawerLayout.closeDrawers()
                 }
 
                 R.id.two-> {
-                    supportFragmentManager.beginTransaction().replace(R.id.frame,VariablesData()).addToBackStack("two").commit()
+                    supportFragmentManager.beginTransaction().replace(R.id.frame,VariablesData()).commit()
                     supportActionBar?.setTitle("Variables and Data Types")
                     drawerLayout.closeDrawers()
                 }
                 R.id.three->{
-                    supportFragmentManager.beginTransaction().replace(R.id.frame,OperatorsExpression()).addToBackStack("three").commit()
+                    supportFragmentManager.beginTransaction().replace(R.id.frame,OperatorsExpression()).commit()
                     supportActionBar?.setTitle("Operators and Expressions")
                     drawerLayout.closeDrawers()
                 }
                 R.id.four->{
-                    supportFragmentManager.beginTransaction().replace(R.id.frame,ControlStructure()).addToBackStack("four").commit()
+                    supportFragmentManager.beginTransaction().replace(R.id.frame,ControlStructure()).commit()
                     supportActionBar?.setTitle("Control Structures")
                     drawerLayout.closeDrawers()
                 }
                 R.id.five->{
-                    supportFragmentManager.beginTransaction().replace(R.id.frame,Functions()).addToBackStack("five").commit()
+                    supportFragmentManager.beginTransaction().replace(R.id.frame,Functions()).commit()
                     supportActionBar?.setTitle("Functions")
                     drawerLayout.closeDrawers()
                 }
                 R.id.six->{
-                    supportFragmentManager.beginTransaction().replace(R.id.frame,ArraysPointer()).addToBackStack("six").commit()
+                    supportFragmentManager.beginTransaction().replace(R.id.frame,ArraysPointer()).commit()
                     supportActionBar?.setTitle("Arrays and Pointers")
                     drawerLayout.closeDrawers()
                 }
                 R.id.seven->{
-                    supportFragmentManager.beginTransaction().replace(R.id.frame,ClassesObject()).addToBackStack("seven").commit()
+                    supportFragmentManager.beginTransaction().replace(R.id.frame,ClassesObject()).commit()
                     supportActionBar?.setTitle("Classes and Objects")
                     drawerLayout.closeDrawers()
                 }
                 R.id.eight->{
-                    supportFragmentManager.beginTransaction().replace(R.id.frame,InheritancePoly()).addToBackStack("eight").commit()
+                    supportFragmentManager.beginTransaction().replace(R.id.frame,InheritancePoly()).commit()
                     supportActionBar?.setTitle("Inheritance and Polymorphism")
                     drawerLayout.closeDrawers()
                 }
 
                 R.id.nine-> {
-                    supportFragmentManager.beginTransaction().replace(R.id.frame,Template()).addToBackStack("nine").commit()
+                    supportFragmentManager.beginTransaction().replace(R.id.frame,Template()).commit()
                     supportActionBar?.setTitle("Templates")
                     drawerLayout.closeDrawers()
                 }
                 R.id.ten->{
-                    supportFragmentManager.beginTransaction().replace(R.id.frame,STL()).addToBackStack("ten").commit()
+                    supportFragmentManager.beginTransaction().replace(R.id.frame,STL()).commit()
                     supportActionBar?.setTitle("STL")
                     drawerLayout.closeDrawers()
                 }
                 R.id.eleven->{
-                    supportFragmentManager.beginTransaction().replace(R.id.frame,InputOutput()).addToBackStack("eleven").commit()
+                    supportFragmentManager.beginTransaction().replace(R.id.frame,InputOutput()).commit()
                     supportActionBar?.setTitle("Input and Output Streams")
                     drawerLayout.closeDrawers()
                 }
                 R.id.twelve->{
-                    supportFragmentManager.beginTransaction().replace(R.id.frame,Memory()).addToBackStack("twelve").commit()
+                    supportFragmentManager.beginTransaction().replace(R.id.frame,Memory()).commit()
                     supportActionBar?.setTitle("Memory Management and Smart Pointers")
                     drawerLayout.closeDrawers()
                 }
                 R.id.thirteen->{
-                    supportFragmentManager.beginTransaction().replace(R.id.frame,Exception()).addToBackStack("thirteen").commit()
+                    supportFragmentManager.beginTransaction().replace(R.id.frame,Exception()).commit()
                     supportActionBar?.setTitle("Exception Handling")
                     drawerLayout.closeDrawers()
                 }
                 R.id.fourteen->{
-                    supportFragmentManager.beginTransaction().replace(R.id.frame,Multithreading()).addToBackStack("fourteen").commit()
+                    supportFragmentManager.beginTransaction().replace(R.id.frame,Multithreading()).commit()
                     supportActionBar?.setTitle("Multithreading and Concurrency")
                     drawerLayout.closeDrawers()
                 }
                 R.id.fifteen->{
-                    supportFragmentManager.beginTransaction().replace(R.id.frame,Debug()).addToBackStack("fifteen").commit()
+                    supportFragmentManager.beginTransaction().replace(R.id.frame,Debug()).commit()
                     supportActionBar?.setTitle("Debugging Techniques and Tools")
                     drawerLayout.closeDrawers()
                 }
                 R.id.sixteen->{
-                    supportFragmentManager.beginTransaction().replace(R.id.frame,End()).addToBackStack("sixteen").commit()
+                    supportFragmentManager.beginTransaction().replace(R.id.frame,End()).commit()
                     supportActionBar?.setTitle("End")
                     drawerLayout.closeDrawers()
                 }
@@ -133,6 +133,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onBackPressed() {
         super.onBackPressed()
+        supportActionBar?.setTitle("Main")
 
     }
 }
