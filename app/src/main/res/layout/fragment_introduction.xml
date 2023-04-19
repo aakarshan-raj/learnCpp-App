@@ -1,15 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Introduction">
+    tools:context=".Introduction"
+    android:orientation="vertical"
+    >
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:id="@+id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/oneTitle"
+        android:textSize="40dp"
+        />
 
-        android:text="Intro" />
+    <TextView
 
-</FrameLayout>
+        android:id="@+id/onePara1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:fontFamily="monospace"
+        style=""
+        android:text="@string/onePara1"
+        android:layout_margin="7dp"
+        android:textSize="17dp" />
+    <TextView
+        android:id="@+id/onePara2"
+        android:layout_below="@+id/onePara1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/onePara2"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        />
+    <TextView
+        android:id="@+id/onePara3"
+        android:layout_below="@+id/onePara2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/onePara3"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        />
+    <TextView
+        android:id="@+id/onePara4"
+        android:layout_below="@+id/onePara3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/onePara4"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        />
+
+    <TextView
+        android:id="@+id/onePara5"
+        android:layout_below="@+id/onePara4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/onePara5"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+
+        />
+
+    <TextView
+        android:id="@+id/onePara6"
+        android:layout_below="@+id/onePara5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/onePara6"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:textColor="#ff5a68"
+        android:background="@color/black"
+        />
+    <TextView
+        android:id="@+id/onePara7"
+        android:layout_below="@+id/onePara6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/onePara7"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        />
+
+</RelativeLayout>
