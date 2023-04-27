@@ -14,7 +14,7 @@ class mainSplash : AppCompatActivity() {
             WindowManager.LayoutParams.FLAG_FULLSCREEN,
             WindowManager.LayoutParams.FLAG_FULLSCREEN
         )
-        setContentView(R.layout.activity_main)
+
 
         // on below line we are calling
         // handler to run a task
