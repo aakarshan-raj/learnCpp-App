@@ -33,8 +33,13 @@ class MainActivity : AppCompatActivity() {
 
         navigationView.setNavigationItemSelectedListener {
             when(it.itemId){
+                R.id.zero->{
+                  mainScreen()
+                }
                 R.id.one->{
-                    mainScreen()
+                    supportFragmentManager.beginTransaction().replace(R.id.frame,Introduction()).commit()
+                    supportActionBar?.setTitle("Introduction to C++")
+                    drawerLayout.closeDrawers()
                 }
 
                 R.id.two-> {
@@ -118,8 +123,8 @@ class MainActivity : AppCompatActivity() {
         }
     }
     fun mainScreen(){
-        supportFragmentManager.beginTransaction().replace(R.id.frame,Introduction()).commit()
-        supportActionBar?.setTitle("Introduction to C++")
+        supportFragmentManager.beginTransaction().replace(R.id.frame,start()).commit()
+        supportActionBar?.setTitle("Learn C++")
         drawerLayout.closeDrawers()
     }
     fun setToolBar(){
@@ -140,7 +145,7 @@ class MainActivity : AppCompatActivity() {
     override fun onBackPressed() {
         val frag = supportFragmentManager.findFragmentById(R.id.frame)
         when(frag){
-           !is Introduction -> mainScreen()
+           !is start -> mainScreen()
             else->{
               super.onBackPressed()
             }

@@ -3,7 +3,8 @@
     <string name="open_drawer">Open Drawer</string>
     <string name="close_drawer">Close Drawer</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello fragment</string>
+
+    <string name="zero">0.Learn C++</string>
     <string name="one">1. Introduction to C++</string>
     <string name="two">2. Variables and Data Types</string>
     <string name="three">3. Operators and Expressions</string>
