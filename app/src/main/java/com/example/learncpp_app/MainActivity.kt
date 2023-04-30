@@ -38,84 +38,84 @@ class MainActivity : AppCompatActivity() {
                 }
                 R.id.one->{
                     supportFragmentManager.beginTransaction().replace(R.id.frame,Introduction()).commit()
-                    supportActionBar?.setTitle("Introduction to C++")
+                    supportActionBar?.setTitle(getString(R.string.one))
                     drawerLayout.closeDrawers()
                 }
 
                 R.id.two-> {
                     supportFragmentManager.beginTransaction().replace(R.id.frame,VariablesData()).commit()
-                    supportActionBar?.setTitle("Variables and Data Types")
+                    supportActionBar?.setTitle(getString(R.string.two))
                     drawerLayout.closeDrawers()
                 }
                 R.id.three->{
                     supportFragmentManager.beginTransaction().replace(R.id.frame,OperatorsExpression()).commit()
-                    supportActionBar?.setTitle("Operators and Expressions")
+                    supportActionBar?.setTitle(getString(R.string.three))
                     drawerLayout.closeDrawers()
                 }
                 R.id.four->{
                     supportFragmentManager.beginTransaction().replace(R.id.frame,ControlStructure()).commit()
-                    supportActionBar?.setTitle("Control Structures")
+                    supportActionBar?.setTitle(getString(R.string.four))
                     drawerLayout.closeDrawers()
                 }
                 R.id.five->{
                     supportFragmentManager.beginTransaction().replace(R.id.frame,Functions()).commit()
-                    supportActionBar?.setTitle("Functions")
+                    supportActionBar?.setTitle(getString(R.string.five))
                     drawerLayout.closeDrawers()
                 }
                 R.id.six->{
                     supportFragmentManager.beginTransaction().replace(R.id.frame,ArraysPointer()).commit()
-                    supportActionBar?.setTitle("Arrays and Pointers")
+                    supportActionBar?.setTitle(getString(R.string.six))
                     drawerLayout.closeDrawers()
                 }
                 R.id.seven->{
                     supportFragmentManager.beginTransaction().replace(R.id.frame,ClassesObject()).commit()
-                    supportActionBar?.setTitle("Classes and Objects")
+                    supportActionBar?.setTitle(getString(R.string.seven))
                     drawerLayout.closeDrawers()
                 }
                 R.id.eight->{
                     supportFragmentManager.beginTransaction().replace(R.id.frame,InheritancePoly()).commit()
-                    supportActionBar?.setTitle("Inheritance and Polymorphism")
+                    supportActionBar?.setTitle(getString(R.string.eight))
                     drawerLayout.closeDrawers()
                 }
 
                 R.id.nine-> {
                     supportFragmentManager.beginTransaction().replace(R.id.frame,Template()).commit()
-                    supportActionBar?.setTitle("Templates")
+                    supportActionBar?.setTitle(getString(R.string.nine))
                     drawerLayout.closeDrawers()
                 }
                 R.id.ten->{
                     supportFragmentManager.beginTransaction().replace(R.id.frame,STL()).commit()
-                    supportActionBar?.setTitle("STL")
+                    supportActionBar?.setTitle(getString(R.string.ten))
                     drawerLayout.closeDrawers()
                 }
                 R.id.eleven->{
                     supportFragmentManager.beginTransaction().replace(R.id.frame,InputOutput()).commit()
-                    supportActionBar?.setTitle("Input and Output Streams")
+                    supportActionBar?.setTitle(getString(R.string.eleven))
                     drawerLayout.closeDrawers()
                 }
                 R.id.twelve->{
                     supportFragmentManager.beginTransaction().replace(R.id.frame,Memory()).commit()
-                    supportActionBar?.setTitle("Memory Management and Smart Pointers")
+                    supportActionBar?.setTitle(getString(R.string.twelve))
                     drawerLayout.closeDrawers()
                 }
                 R.id.thirteen->{
                     supportFragmentManager.beginTransaction().replace(R.id.frame,Exception()).commit()
-                    supportActionBar?.setTitle("Exception Handling")
+                    supportActionBar?.setTitle(getString(R.string.thirteen))
                     drawerLayout.closeDrawers()
                 }
                 R.id.fourteen->{
                     supportFragmentManager.beginTransaction().replace(R.id.frame,Multithreading()).commit()
-                    supportActionBar?.setTitle("Multithreading and Concurrency")
+                    supportActionBar?.setTitle(getString(R.string.fourteen))
                     drawerLayout.closeDrawers()
                 }
                 R.id.fifteen->{
                     supportFragmentManager.beginTransaction().replace(R.id.frame,Debug()).commit()
-                    supportActionBar?.setTitle("Debugging Techniques and Tools")
+                    supportActionBar?.setTitle(getString(R.string.fifteen))
                     drawerLayout.closeDrawers()
                 }
                 R.id.sixteen->{
                     supportFragmentManager.beginTransaction().replace(R.id.frame,End()).commit()
-                    supportActionBar?.setTitle("End")
+                    supportActionBar?.setTitle(getString(R.string.sixteen))
                     drawerLayout.closeDrawers()
                 }
             }

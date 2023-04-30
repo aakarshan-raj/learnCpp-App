@@ -26,7 +26,10 @@ class OperatorsExpression : Fragment() {
         btn1 = vieww.findViewById(R.id.btn1)
         btn2 = vieww.findViewById(R.id.btn2)
         btn1.setOnClickListener {
-            Toast.makeText(activity, "Completed", Toast.LENGTH_LONG).show()
+            val sharedPreferences =   activity?.getSharedPreferences("data_in_here", AppCompatActivity.MODE_PRIVATE)
+            val myEdit = sharedPreferences?.edit()
+            myEdit?.putBoolean("three", true)
+            myEdit?.apply()
         }
         btn2?.setOnClickListener {
             val nextFragment = ControlStructure()

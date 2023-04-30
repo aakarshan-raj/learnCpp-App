@@ -1,14 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Multithreading">
+    tools:context=".Multithreading"
+    android:orientation="vertical"
+    >
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+
+
+    <RelativeLayout
+        android:layout_marginTop="100dp"
+        android:id="@+id/footer"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="multi" />
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/footer_img"
+        android:gravity="center" >
+        <Button
 
-</FrameLayout>
+            android:paddingRight="10dp"
+            android:layout_marginRight="100dp"
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="mark Complete"
+
+            />
+        <Button
+            android:layout_toRightOf="@+id/btn1"
+            android:id="@+id/btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next"
+
+            />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
