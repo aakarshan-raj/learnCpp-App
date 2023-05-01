@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="threeTitle">Operators and expressions </string>
+    <string name="threePara1">Operators and expressions are two of the most fundamental concepts in C++. An operator is a symbol that represents an operation that can be performed on one or more operands. An expression is a combination of operators, operands, and other expressions that can be evaluated to a single value.</string>
+    <string name="threePara2">Operators in C++:</string>
+    <string name="threePara3">C++ supports a wide variety of operators, including arithmetic, relational, logical, bitwise, assignment, and increment/decrement operators. The following table summarizes the various operators in C++:</string>
+    <string name="threePara4">Operator	   Description</string>
+    <string name="threePara5">+	   Addition</string>
+    <string name="threePara6">-	Subtraction</string>
+    <string name="threePara7">*	Multiplication</string>
+    <string name="threePara8">/	Division</string>
+    <string name="threePara9">%	Modulo</string>
+    <string name="threePara10">=	Assignment</string>
+    <string name="threePara11">==	Equal to</string>
+    <string name="threePara12">!=	Not equal to</string>
+    <string name="threePara13">&lt;	Less than</string>
+    <string name="threePara14">&gt;	Greater than</string>
+    <string name="threePara15">&lt;=	Less than or equal to</string>
+    <string name="threePara16">>=	Greater than or equal to</string>
+    <string name="threePara17">&amp;&amp;	Logical AND</string>
+    <string name="threePara18">||	Logical OR</string>
+    <string name="threePara19">!	Logical NOT</string>
+    <string name="threePara20">&amp;	Bitwise AND</string>
+    <string name="threePara21">|	Bitwise OR</string>
+    <string name="threePara22">^	Bitwise XOR</string>
+    <string name="threePara23">~	Bitwise NOT</string>
+    <string name="threePara24">&lt;&lt;	Left shift</string>
+    <string name="threePara25">&gt;&gt;	Right shift</string>
+    <string name="threePara26">++	Increment</string>
+    <string name="threePara27">--	Decrement</string>
+    <string name="threePara28">Expressions in C++:</string>
+    <string name="threePara29">An expression is a combination of one or more operands and one or more operators that can be evaluated to a single value. In C++, expressions can be used in a variety of contexts, such as assignments, function calls, and conditional statements. The following are some examples of expressions in C++:</string>
+    <string name="threePara30">int x = 10; // assignment expression</string>
+    <string name="threePara31">int y = x + 5; // arithmetic expression</string>
+    <string name="threePara32">bool z = (x == y) &amp;&amp; (x != 0); // logical expression</string>
+    <string name="threePara33">int a = (x > y) ? x : y; // conditional expression (also known as the ternary operator)</string>
+    <string name="threePara34">Operator Precedence and Associativity:</string>
+    <string name="threePara35">Operator precedence determines the order in which operators are evaluated in an expression. In C++, operators with higher precedence are evaluated before operators with lower precedence. For example, multiplication (*) has a higher precedence than addition (+), so the expression 2 + 3 * 4 is evaluated as 2 + (3 * 4) = 14.</string>
+    <string name="threePara36">Operator associativity determines the order in which operators with the same precedence are evaluated. In C++, most operators are left-associative, which means that they are evaluated from left to right. For example, the expression 2 + 3 + 4 is evaluated as (2 + 3) + 4 = 9.</string>
+    <string name="threePara37">However, some operators, such as the assignment operator (=) and the conditional operator (?:), are right-associative, which means that they are evaluated from right to left. For example, the expression a = b = c is evaluated as a = (b = c).</string>
+    <string name="threePara38">Conclusion:</string>
+    <string name="threePara39">Operators and expressions are fundamental concepts in C++ that are used extensively in programming. Understanding how operators work, how expressions are evaluated, and how operator precedence and associativity work is essential to writing effective C++ code.</string>
+
+
+</resources>

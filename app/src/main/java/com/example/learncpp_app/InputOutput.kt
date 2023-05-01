@@ -6,13 +6,14 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
+import android.widget.ImageButton
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.FragmentTransaction
 
 class InputOutput : Fragment() {
     lateinit var vieww: View
-    lateinit var btn1: Button
-    lateinit var btn2: Button
+    lateinit var btn1: ImageButton
+    lateinit var btn2: ImageButton
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?

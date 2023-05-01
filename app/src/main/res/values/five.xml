@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!--        <string name="fiveTitle">Functions</string>-->
+<!--        <string name="fivePara1">Introduction:</string>-->
+<!--        <string name="fivePara2">Functions are a fundamental concept in C++. A function is a block of code that performs a specific task and can be called from other parts of the program. Functions are used to reduce code duplication, improve code organization, and make code easier to read and maintain.</string>-->
+<!--        <string name="fivePara3">Defining a Function:</string>-->
+<!--        <string name="fivePara4">To define a function in C++, you need to specify the function's return type, name, and parameter list. The parameter list specifies the input to the function, and the return type specifies the type of value that the function returns (if any). Here is the general syntax for defining a function:</string>-->
+<!--        <string name="fivePara5">return_type function_name(parameter_list) {</string>-->
+<!--        <string name="fivePara6">  // function body-->
+<!--</string>-->
+<!--        <string name="fivePara7">  return return_value;-->
+<!--</string>-->
+<!--        <string name="fivePara8">}</string>-->
+<!--        <string name="fivePara9">Here's an example of a function that takes two integers as input and returns their sum:</string>-->
+<!--        <string name="fivePara10">int sum(int a, int b) {</string>-->
+<!--        <string name="fivePara11">  int result = a + b;</string>-->
+<!--        <string name="fivePara12">  return result;</string>-->
+<!--        <string name="fivePara13">}</string>-->
+<!--        <string name="fivePara14">Calling a Function:-->
+<!--</string>-->
+<!--        <string name="fivePara15">To call a function in C++, you need to specify the function's name and provide the required arguments (if any). Here's an example of calling the sum() function we defined earlier:</string>-->
+<!--        <string name="fivePara16">int a = 5;</string>-->
+<!--        <string name="fivePara17"></string>-->
+<!--        <string name="fivePara18"></string>-->
+<!--        <string name="fivePara19"></string>-->
+<!--        <string name="fivePara20"></string>-->
+<!--        <string name="fivePara21"></string>-->
+<!--        <string name="fivePara22"></string>-->
+<!--        <string name="fivePara23"></string>-->
+<!--        <string name="fivePara24"></string>-->
+<!--        <string name="fivePara25"></string>-->
+<!--        <string name="fivePara26"></string>-->
+<!--        <string name="fivePara27"></string>-->
+<!--        <string name="fivePara28"></string>-->
+<!--        <string name="fivePara29"></string>-->
+<!--        <string name="fivePara30"></string>-->
+<!--        <string name="fivePara31"></string>-->
+<!--        <string name="fivePara32"></string>-->
+<!--        <string name="fivePara33"></string>-->
+<!--        <string name="fivePara34"></string>-->
+<!--        <string name="fivePara35"></string>-->
+<!--        <string name="fivePara36"></string>-->
+<!--        <string name="fivePara37"></string>-->
+<!--        <string name="fivePara38"></string>-->
+<!--        <string name="fivePara39"></string>-->
+<!--        <string name="fivePara40"></string>-->
+<!--        <string name="fivePara41"></string>-->
+<!--        <string name="fivePara42"></string>-->
+<!--        <string name="fivePara43"></string>-->
+<!--        <string name="fivePara44"></string>-->
+<!--        <string name="fivePara45"></string>-->
+<!--        <string name="fivePara46"></string>-->
+<!--        <string name="fivePara47"></string>-->
+
+
+
+
+
+    </resources>
