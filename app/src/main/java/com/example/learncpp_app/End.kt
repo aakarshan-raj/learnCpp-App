@@ -33,6 +33,7 @@ class End : Fragment() {
             val myEdit = sharedPreferences?.edit()
             myEdit?.putBoolean("sixteen", true)
             myEdit?.apply()
+            Toast.makeText(activity,"Book Marked",Toast.LENGTH_LONG).show()
 
         }
         btn2.setOnClickListener {

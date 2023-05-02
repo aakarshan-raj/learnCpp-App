@@ -1,6 +1,7 @@
 package com.example.learncpp_app
 
 import android.content.Intent
+import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
@@ -14,6 +15,7 @@ import androidx.core.view.GravityCompat
 import androidx.drawerlayout.widget.DrawerLayout
 import com.google.android.material.internal.ContextUtils.getActivity
 import com.google.android.material.navigation.NavigationView
+import kotlin.system.exitProcess
 
 class MainActivity : AppCompatActivity() {
     lateinit var drawerLayout: DrawerLayout
@@ -144,8 +146,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun mainScreen() {
-        supportFragmentManager.beginTransaction().replace(R.id.frame, start()).commit()
-        supportActionBar?.setTitle("Learn C++")
+        supportFragmentManager.beginTransaction().replace(R.id.frame, Introduction()).commit()
+        supportActionBar?.setTitle("Introduction to C++")
         drawerLayout.closeDrawers()
     }
 
@@ -161,11 +163,12 @@ class MainActivity : AppCompatActivity() {
     override fun onBackPressed() {
         val frag = supportFragmentManager.findFragmentById(R.id.frame)
         when (frag) {
-            !is start -> mainScreen()
+            !is Introduction -> mainScreen()
             else -> {
                 super.onBackPressed()
             }
         }
+
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
@@ -175,15 +178,21 @@ class MainActivity : AppCompatActivity() {
             android.R.id.home -> {
                 drawerLayout.openDrawer(GravityCompat.START)
             }
-            R.id.compiler ->{
-  Toast.makeText(this,"compiler",Toast.LENGTH_LONG).show()
+            R.id.progress ->{
+
+                supportFragmentManager.beginTransaction().replace(R.id.frame, start()).commit()
+                supportActionBar?.setTitle(getString(R.string.zero))
+                drawerLayout.closeDrawers()
+
             }
-            R.id.about ->{
-                Toast.makeText(this,"about",Toast.LENGTH_LONG).show()
+            R.id.compiler ->{
+                val openURL = Intent(android.content.Intent.ACTION_VIEW)
+                openURL.data = Uri.parse("https://cpp.sh/")
+                startActivity(openURL)
 
             }
             R.id.exit ->{
-                Toast.makeText(this,"exit",Toast.LENGTH_LONG).show()
+                finish()
 
             }
         }

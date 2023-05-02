@@ -31,6 +31,8 @@ class VariablesData : Fragment() {
             val myEdit = sharedPreferences?.edit()
             myEdit?.putBoolean("two", true)
             myEdit?.apply()
+            Toast.makeText(activity,"Book Marked",Toast.LENGTH_LONG).show()
+
         }
         btn2?.setOnClickListener {
             val nextFragment = OperatorsExpression()

@@ -8,6 +8,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import android.widget.ImageButton
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.FragmentTransaction
 
@@ -30,6 +31,7 @@ class STL : Fragment() {
             val myEdit = sharedPreferences?.edit()
             myEdit?.putBoolean("ten", true)
             myEdit?.apply()
+            Toast.makeText(activity,"Book Marked", Toast.LENGTH_LONG).show()
 
         }
         btn2?.setOnClickListener {
