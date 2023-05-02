@@ -77,113 +77,10 @@
         />
 
     <!--    code related-->
-    <TextView
-        android:id="@+id/onePara6"
-        android:layout_below="@+id/onePara5"
 
-        android:layout_height="wrap_content"
-        android:text="@string/fourPara6"
-        android:layout_margin="7dp"
-        android:textSize="17dp"
-        android:fontFamily="monospace"
-        android:layout_width="match_parent"
-        android:textColor="#ff5a68"
-        android:background="@color/black"
-        />
-    <TextView
-        android:id="@+id/onePara7"
-        android:layout_below="@+id/onePara6"
-
-        android:layout_height="wrap_content"
-        android:text="@string/fourPara7"
-        android:layout_margin="7dp"
-        android:textSize="17dp"
-        android:fontFamily="monospace"
-        android:layout_width="match_parent"
-        android:textColor="#ff5a68"
-        android:background="@color/black"
-        />
-    <TextView
-        android:id="@+id/onePara8"
-        android:layout_below="@+id/onePara7"
-
-        android:layout_height="wrap_content"
-        android:text="@string/fourPara8"
-        android:layout_margin="7dp"
-        android:textSize="17dp"
-        android:fontFamily="monospace"
-        android:layout_width="match_parent"
-        android:textColor="#ff5a68"
-        android:background="@color/black"
-        />
-    <TextView
-        android:id="@+id/onePara9"
-        android:layout_below="@+id/onePara8"
-
-        android:layout_height="wrap_content"
-        android:text="@string/fourPara9"
-        android:layout_margin="7dp"
-        android:textSize="17dp"
-        android:fontFamily="monospace"
-        android:layout_width="match_parent"
-        android:textColor="#ff5a68"
-        android:background="@color/black"
-        />
-    <TextView
-        android:id="@+id/onePara10"
-        android:layout_below="@+id/onePara9"
-
-        android:layout_height="wrap_content"
-        android:text="@string/fourPara10"
-        android:layout_margin="7dp"
-        android:textSize="17dp"
-        android:fontFamily="monospace"
-        android:layout_width="match_parent"
-        android:textColor="#ff5a68"
-        android:background="@color/black"
-        />
-    <TextView
-        android:id="@+id/onePara11"
-        android:layout_below="@+id/onePara10"
-
-        android:layout_height="wrap_content"
-        android:text="@string/fourPara11"
-        android:layout_margin="7dp"
-        android:textSize="17dp"
-        android:fontFamily="monospace"
-        android:layout_width="match_parent"
-        android:textColor="#ff5a68"
-        android:background="@color/black"
-        />
-    <TextView
-        android:id="@+id/onePara12"
-        android:layout_below="@+id/onePara11"
-
-        android:layout_height="wrap_content"
-        android:text="@string/fourPara12"
-        android:layout_margin="7dp"
-        android:textSize="17dp"
-        android:fontFamily="monospace"
-        android:layout_width="match_parent"
-        android:textColor="#ff5a68"
-        android:background="@color/black"
-        />
-    <TextView
-        android:id="@+id/onePara13"
-        android:layout_below="@+id/onePara12"
-
-        android:layout_height="wrap_content"
-        android:text="@string/fourPara13"
-        android:layout_margin="7dp"
-        android:textSize="17dp"
-        android:fontFamily="monospace"
-        android:layout_width="match_parent"
-        android:textColor="#ff5a68"
-        android:background="@color/black"
-        />
     <TextView
         android:id="@+id/onePara14"
-        android:layout_below="@+id/onePara13"
+        android:layout_below="@+id/onePara5"
 
         android:layout_height="wrap_content"
         android:text="@string/fourPara14"
@@ -238,168 +135,10 @@
         android:textColor="#ff5a68"
         android:background="@color/black"
         />
-    <TextView
-        android:id="@+id/onePara19"
-        android:layout_below="@+id/onePara18"
 
-        android:layout_height="wrap_content"
-        android:text="@string/fourPara19"
-        android:layout_margin="7dp"
-        android:textSize="17dp"
-        android:fontFamily="monospace"
-        android:layout_width="match_parent"
-        android:textColor="#ff5a68"
-        android:background="@color/black"
-        />
-    <TextView
-        android:id="@+id/onePara20"
-        android:layout_below="@+id/onePara19"
-
-        android:layout_height="wrap_content"
-        android:text="@string/fourPara20"
-        android:layout_margin="7dp"
-        android:textSize="17dp"
-        android:fontFamily="monospace"
-        android:layout_width="match_parent"
-        android:textColor="#ff5a68"
-        android:background="@color/black"
-        />
-    <TextView
-        android:id="@+id/onePara21"
-        android:layout_below="@+id/onePara20"
-
-        android:layout_height="wrap_content"
-        android:text="@string/fourPara21"
-        android:layout_margin="7dp"
-        android:textSize="17dp"
-        android:fontFamily="monospace"
-        android:layout_width="match_parent"
-        android:textColor="#ff5a68"
-        android:background="@color/black"
-        />
-    <TextView
-        android:id="@+id/onePara22"
-        android:layout_below="@+id/onePara21"
-
-        android:layout_height="wrap_content"
-        android:text="@string/fourPara22"
-        android:layout_margin="7dp"
-        android:textSize="17dp"
-        android:fontFamily="monospace"
-        android:layout_width="match_parent"
-        android:textColor="#ff5a68"
-        android:background="@color/black"
-        />
-    <TextView
-        android:id="@+id/onePara23"
-        android:layout_below="@+id/onePara22"
-
-        android:layout_height="wrap_content"
-        android:text="@string/fourPara23"
-        android:layout_margin="7dp"
-        android:textSize="17dp"
-        android:fontFamily="monospace"
-        android:layout_width="match_parent"
-        android:textColor="#ff5a68"
-        android:background="@color/black"
-        />
-    <TextView
-        android:id="@+id/onePara24"
-        android:layout_below="@+id/onePara23"
-        android:layout_height="wrap_content"
-        android:text="@string/fourPara24"
-        android:layout_margin="7dp"
-        android:textSize="17dp"
-        android:fontFamily="monospace"
-        android:layout_width="match_parent"
-        android:textColor="#ff5a68"
-        android:background="@color/black"
-        />
-
-
-    <TextView
-        android:id="@+id/onePara25"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/onePara24"
-        android:fontFamily="monospace"
-        android:text="@string/fourPara25"
-        android:layout_margin="7dp"
-        android:textSize="17dp"
-        android:layout_width="match_parent"
-        android:textColor="#ff5a68"
-        android:background="@color/black"
-        />
-    <TextView
-        android:id="@+id/onePara26"
-        android:layout_below="@+id/onePara25"
-        android:layout_height="wrap_content"
-        android:text="@string/fourPara26"
-        android:layout_margin="7dp"
-        android:textSize="17dp"
-        android:fontFamily="monospace"
-        android:layout_width="match_parent"
-        android:textColor="#ff5a68"
-        android:background="@color/black"
-        />
-    <TextView
-        android:id="@+id/onePara27"
-        android:layout_below="@+id/onePara26"
-        android:layout_height="wrap_content"
-        android:text="@string/fourPara27"
-        android:layout_margin="7dp"
-        android:textSize="17dp"
-        android:fontFamily="monospace"
-        android:layout_width="match_parent"
-        android:textColor="#ff5a68"
-        android:background="@color/black"
-
-        />
-    <TextView
-        android:id="@+id/onePara28"
-        android:layout_below="@+id/onePara27"
-
-        android:layout_height="wrap_content"
-        android:text="@string/fourPara28"
-        android:layout_margin="7dp"
-        android:textSize="17dp"
-        android:fontFamily="monospace"
-        android:layout_width="match_parent"
-        android:textColor="#ff5a68"
-        android:background="@color/black"
-
-        />
-
-    <TextView
-        android:id="@+id/onePara29"
-        android:layout_below="@+id/onePara28"
-
-        android:layout_height="wrap_content"
-        android:text="@string/fourPara29"
-        android:layout_margin="7dp"
-        android:textSize="17dp"
-        android:fontFamily="monospace"
-        android:layout_width="match_parent"
-        android:textColor="#ff5a68"
-        android:background="@color/black"
-        />
-
-    <!--    code related-->
-    <TextView
-        android:id="@+id/onePara30"
-        android:layout_below="@+id/onePara29"
-
-        android:layout_height="wrap_content"
-        android:text="@string/fourPara30"
-        android:layout_margin="7dp"
-        android:textSize="17dp"
-        android:fontFamily="monospace"
-        android:layout_width="match_parent"
-        android:textColor="#ff5a68"
-        android:background="@color/black"
-        />
     <TextView
         android:id="@+id/onePara31"
-        android:layout_below="@+id/onePara30"
+        android:layout_below="@+id/onePara18"
 
         android:layout_height="wrap_content"
         android:text="@string/fourPara31"
@@ -466,35 +205,10 @@
         android:textColor="#ff5a68"
         android:background="@color/black"
         />
-    <TextView
-        android:id="@+id/onePara37"
-        android:layout_below="@+id/onePara36"
 
-        android:layout_height="wrap_content"
-        android:text="@string/fourPara37"
-        android:layout_margin="7dp"
-        android:textSize="17dp"
-        android:fontFamily="monospace"
-        android:layout_width="match_parent"
-        android:textColor="#ff5a68"
-        android:background="@color/black"
-        />
-    <TextView
-        android:id="@+id/onePara38"
-        android:layout_below="@+id/onePara37"
-
-        android:layout_height="wrap_content"
-        android:text="@string/fourPara38"
-        android:layout_margin="7dp"
-        android:textSize="17dp"
-        android:fontFamily="monospace"
-        android:layout_width="match_parent"
-        android:textColor="#ff5a68"
-        android:background="@color/black"
-        />
     <TextView
         android:id="@+id/onePara39"
-        android:layout_below="@+id/onePara38"
+        android:layout_below="@+id/onePara36"
 
         android:layout_height="wrap_content"
         android:text="@string/fourPara39"
@@ -548,63 +262,14 @@
         android:textColor="#ff5a68"
         android:background="@color/black"
         />
-    <TextView
-        android:id="@+id/onePara44"
-        android:layout_below="@+id/onePara43"
-        android:layout_height="wrap_content"
-        android:text="@string/fourPara44"
-        android:layout_margin="7dp"
-        android:textSize="17dp"
-        android:fontFamily="monospace"
-        android:layout_width="match_parent"
-        android:textColor="#ff5a68"
-        android:background="@color/black"
-        />
-    <TextView
-        android:id="@+id/onePara45"
-        android:layout_below="@+id/onePara44"
 
-        android:layout_height="wrap_content"
-        android:text="@string/fourPara45"
-        android:layout_margin="7dp"
-        android:textSize="17dp"
-        android:fontFamily="monospace"
-        android:layout_width="match_parent"
-        android:textColor="#ff5a68"
-        android:background="@color/black"
-        />
-    <TextView
-        android:id="@+id/onePara46"
-        android:layout_below="@+id/onePara45"
-
-        android:layout_height="wrap_content"
-        android:text="@string/fourPara46"
-        android:layout_margin="7dp"
-        android:textSize="17dp"
-        android:fontFamily="monospace"
-        android:layout_width="match_parent"
-        android:textColor="#ff5a68"
-        android:background="@color/black"
-        />
-    <TextView
-        android:id="@+id/onePara47"
-        android:layout_below="@+id/onePara46"
-        android:layout_height="wrap_content"
-        android:text="@string/fourPara47"
-        android:layout_margin="7dp"
-        android:textSize="17dp"
-        android:fontFamily="monospace"
-        android:layout_width="match_parent"
-        android:textColor="#ff5a68"
-        android:background="@color/black"
-        />
 
 
 
 
     <TextView
         android:layout_height="40dp"
-        android:layout_below="@+id/onePara47"
+        android:layout_below="@+id/onePara43"
         android:layout_width="wrap_content"
         />
     <RelativeLayout

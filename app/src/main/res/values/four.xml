@@ -5,49 +5,29 @@
     <string name="fourPara2">Selection Control Structures:</string>
     <string name="fourPara3">The selection control structures in C++ are used to execute a block of code based on a condition. The two types of selection control structures are the if-else statement and the switch statement.</string>
     <string name="fourPara4">1. If-else statement:</string>
-    <string name="fourPara5">1. int num = 5;</string>
-    <string name="fourPara6">2. </string>
-    <string name="fourPara7">3. </string>
-    <string name="fourPara8">4. if(num &lt; 10){</string>
-    <string name="fourPara9">5.    cout &lt;&lt; \u0022The number is less than 10.\u0022 &lt;&lt; endl;</string>
-    <string name="fourPara10">6. }</string>
-    <string name="fourPara11">7. else{</string>
-    <string name="fourPara12">8.   cout &lt;&lt; \u0022 The number is greater than or equal to 10.\u0022 &lt;&lt; endl;</string>
-    <string name="fourPara13">9. }</string>
+    <string name="fourPara5"> int num = 5;\n\n\nif(num &lt; 10){\n\ncout &lt;&lt; \u0022The number is less than 10.\u0022 &lt;&lt; endl;\n\n}\n\nelse{\n\ncout &lt;&lt; \u0022 The number is greater than or equal to 10.\u0022 &lt;&lt; endl;\n</string>
+
     <string name="fourPara14">In this example, if the value of num is less than 10, then the first block of code will be executed, which will output "The number is less than 10." to the console. Otherwise, the second block of code will be executed, which will output "The number is greater than or equal to 10." to the console.</string>
     <string name="fourPara15">Interesting Fact: The if-else statement was first introduced in the Fortran programming language in the late 1950s.</string>
     <string name="fourPara16">2. Switch statement:</string>
     <string name="fourPara17">The switch statement in C++ is used to execute a block of code based on the value of a variable. Here"'"s an example:</string>
-    <string name="fourPara18">1. int num = 2;</string>
-    <string name="fourPara19">2. </string>
-    <string name="fourPara20">3. switch(num){</string>
-    <string name="fourPara21">4.    case 1:</string>
-    <string name="fourPara22">5.       cout &lt;&lt; \u0022 The number is one.\u0022 &lt;&lt; endl;</string>
-    <string name="fourPara23">6.       break;</string>
-    <string name="fourPara24">7.    case 2:</string>
-    <string name="fourPara25">8.       cout &lt;&lt; \u0022 The number is two.\u0022 &lt;&lt; endl;</string>
-    <string name="fourPara26">9.       break;</string>
-    <string name="fourPara27">10.    default:</string>
-    <string name="fourPara28">11.       cout &lt;&lt; \u0022 The number is not one or two.\u0022 &lt;&lt; endl;</string>
-    <string name="fourPara29">12.       break;</string>
-    <string name="fourPara30">13. }</string>
+    <string name="fourPara18">int num = 2;\n\n\nswitch(num){\ncase 1:\ncout &lt;&lt; \u0022 The number is one.\u0022 &lt;&lt; endl;\nbreak;\ncase 2:\ncout &lt;&lt; \u0022 The number is two.\u0022 &lt;&lt; endl;\nbreak;\ndefault:\n\ncout &lt;&lt; \u0022 The number is not one or two.\u0022 &lt;&lt; endl;\n\nbreak;\n\n}\n</string>
+
     <string name="fourPara31">In this example, the value of num is 2, so the second block of code will be executed, which will output "The number is two." to the console. If num had a value of 1, then the first block of code would be executed, which would output "The number is one." to the console. If num did not have a value of 1 or 2, then the default block of code would be executed, which would output "The number is not one or two." to the console.Interesting Fact: The switch statement was first introduced in the BCPL programming language in the early 1960s.</string>
     <string name="fourPara32">Iteration Control Structures:</string>
     <string name="fourPara33">The iteration control structures in C++ are used to execute a block of code repeatedly. The three types of iteration control structures are the for loop, the while loop, and the do-while loop.</string>
     <string name="fourPara34">1. For loop:</string>
     <string name="fourPara35">The for loop in C++ is used to execute a block of code a fixed number of times. Here"'s" an example:</string>
-    <string name="fourPara36">1. for(int i = 0; i &lt; 5; i++){</string>
-    <string name="fourPara37">2.    cout &lt;&lt; \u0022 The value of i is: \u0022 &lt;&lt; i &lt;&lt; endl;</string>
-    <string name="fourPara38">3. }</string>
+    <string name="fourPara36">for(int i = 0; i &lt; 5; i++){\n\ncout &lt;&lt; \u0022 The value of i is: \u0022 &lt;&lt; i &lt;&lt; endl;\n\n}\n</string>
     <string name="fourPara39">In this example, the block of code inside the for loop will be executed five times, once for each value of i from 0 to 4. Each time the block of code is executed, the value of i will be output to the console.</string>
     <string name="fourPara40">Interesting Fact: The for loop was first introduced in the Algol 60 programming language in the early 1960s.</string>
     <string name="fourPara41">2. While loop:</string>
     <string name="fourPara42">The While loop is used to execute a block of code repeatedly as long as a certain condition is true. Here"'s" an example:</string>
-    <string name="fourPara43">1. int i = 0;</string>
-    <string name="fourPara44">2. while (i &lt; 5) {</string>
-    <string name="fourPara45">3.   cout &lt;&lt; i &lt;&lt; endl;</string>
-    <string name="fourPara46">4.   i++;</string>
-    <string name="fourPara47">5. }</string>
+    <string name="fourPara43">int i = 0;\nwhile (i &lt; 5) {\n\ncout &lt;&lt; i &lt;&lt; endl;\n\ni++;\n\n}\n</string>
+    <string name="fourPara44">2. </string>
+    <string name="fourPara45">3.   </string>
+    <string name="fourPara46">4.   </string>
+    <string name="fourPara47">5. </string>
 
 
 
