@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fifteenTitle">Debugging</string>
+    <string name="fifteenPara1">Debugging is an essential part of software development, and the GNU Debugger (GDB) is a powerful tool that can be used to debug C++ code. GDB provides a command-line interface for debugging programs, and it can be used to inspect the state of a running program, set breakpoints, and step through code line-by-line.</string>
+    <string name="fifteenPara2">To use GDB to debug a C++ program, you must first compile the program with debugging symbols. This can be done by passing the -g flag to the compiler when compiling the program.</string>
+    <string name="fifteenPara3">g++ -g -o program program.cpp</string>
+    <string name="fifteenPara4">Once the program has been compiled with debugging symbols, you can start GDB by running the following command:</string>
+    <string name="fifteenPara5">gdb program</string>
+    <string name="fifteenPara6">This will start GDB and load the program into memory. You can then use various GDB commands to interact with the program and debug it.</string>
+    <string name="fifteenPara7">One of the most useful GDB commands is break, which can be used to set a breakpoint at a specific line of code. For example, to set a breakpoint at line 10 of the main() function, you can run the following command:</string>
+    <string name="fifteenPara8">break main.cpp:10</string>
+    <string name="fifteenPara9">This will set a breakpoint at line 10 of the main.cpp file, and the program will stop executing when it reaches that line.</string>
+    <string name="fifteenPara10">Once a breakpoint has been set, you can use the run command to start the program and begin debugging it. When the program reaches the breakpoint, it will stop executing, and you can use various GDB commands to inspect the state of the program and debug it.</string>
+    <string name="fifteenPara11">For example, you can use the print command to print the value of a variable at a specific point in the program. For example, to print the value of the x variable, you can run the following command:</string>
+    <string name="fifteenPara12">print x</string>
+    <string name="fifteenPara13">You can also use the step command to step through the code line-by-line, and the next command to step over function calls. These commands can be useful for tracing the flow of execution through the program and identifying bugs and other issues.</string>
+    <string name="fifteenPara14">Finally, when you are finished debugging the program, you can use the quit command to exit GDB and terminate the program.</string>
+    <string name="fifteenPara15">Debugging C++ code using GDB can be a complex and time-consuming process, but it is an essential part of software development. By using GDB to debug your C++ code, you can identify and fix bugs and other issues in your code, improving its performance, reliability, and functionality.</string>
+
+
+
+
+
+</resources>

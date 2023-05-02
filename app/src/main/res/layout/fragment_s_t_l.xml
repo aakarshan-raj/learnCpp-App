@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,37 +6,308 @@
     android:orientation="vertical"
     >
 
+    <TextView        android:layout_marginTop="50dp"
+        android:id="@+id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:text="@string/tenTitle"
+        android:textSize="40dp"
+        android:layout_width="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/tenPara1"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:fontFamily="monospace"
+        android:text="@string/tenPara1"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:layout_width="wrap_content"
+        />
+    <TextView        android:id="@+id/tenPara2"
+        android:layout_below="@+id/tenPara1"
+        android:layout_height="wrap_content"
+        android:text="@string/tenPara2"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+        />
+    <TextView        android:id="@+id/tenPara3"
+        android:layout_below="@+id/tenPara2"
+        android:layout_height="wrap_content"
+        android:text="@string/tenPara3"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+
+        />
+    <TextView        android:id="@+id/tenPara4"
+        android:layout_below="@+id/tenPara3"
+
+        android:layout_height="wrap_content"
+        android:text="@string/tenPara4"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+
+        />
+
+    <TextView        android:id="@+id/tenPara5"
+        android:layout_below="@+id/tenPara4"
+        android:layout_height="wrap_content"
+        android:text="@string/tenPara5"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+        />
+
+    <!--    code related-->
+    <TextView
+        android:id="@+id/tenPara6"
+        android:layout_below="@+id/tenPara5"
+
+        android:layout_height="wrap_content"
+        android:text="@string/tenPara6"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+        />
+    <TextView        android:id="@+id/tenPara7"
+        android:layout_below="@+id/tenPara6"
+
+        android:layout_height="wrap_content"
+        android:text="@string/tenPara7"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+        />
+    <TextView        android:id="@+id/tenPara8"
+        android:layout_below="@+id/tenPara7"
+
+        android:layout_height="wrap_content"
+        android:text="@string/tenPara8"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="match_parent"
+        android:textColor="#ff5a68"
+        android:background="@color/black"
+        />
+    <TextView        android:id="@+id/tenPara9"
+        android:layout_below="@+id/tenPara8"
+
+        android:layout_height="wrap_content"
+        android:text="@string/tenPara9"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+        />
+    <TextView        android:id="@+id/tenPara10"
+        android:layout_below="@+id/tenPara9"
+
+        android:layout_height="wrap_content"
+        android:text="@string/tenPara10"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+        />
+    <TextView        android:id="@+id/tenPara11"
+        android:layout_below="@+id/tenPara10"
+
+        android:layout_height="wrap_content"
+        android:text="@string/tenPara11"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+        />
+    <TextView        android:id="@+id/tenPara12"
+        android:layout_below="@+id/tenPara11"
+
+        android:layout_height="wrap_content"
+        android:text="@string/tenPara12"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+        />
+    <TextView        android:id="@+id/tenPara13"
+        android:layout_below="@+id/tenPara12"
+
+        android:layout_height="wrap_content"
+        android:text="@string/tenPara13"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="match_parent"
+        android:textColor="#ff5a68"
+        android:background="@color/black"
+        />
+    <TextView        android:id="@+id/tenPara14"
+        android:layout_below="@+id/tenPara13"
+
+        android:layout_height="wrap_content"
+        android:text="@string/tenPara14"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+        />
+    <TextView        android:id="@+id/tenPara15"
+        android:layout_below="@+id/tenPara14"
+
+        android:layout_height="wrap_content"
+        android:text="@string/tenPara15"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+        />
+    <TextView        android:id="@+id/tenPara16"
+        android:layout_below="@+id/tenPara15"
+
+        android:layout_height="wrap_content"
+        android:text="@string/tenPara16"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+        />
+    <TextView        android:id="@+id/tenPara17"
+        android:layout_below="@+id/tenPara16"
+
+        android:layout_height="wrap_content"
+        android:text="@string/tenPara17"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+        />
+    <TextView        android:id="@+id/tenPara18"
+        android:layout_below="@+id/tenPara17"
+
+        android:layout_height="wrap_content"
+        android:text="@string/tenPara18"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+        />
+    <TextView        android:id="@+id/tenPara19"
+        android:layout_below="@+id/tenPara18"
+
+        android:layout_height="wrap_content"
+        android:text="@string/tenPara19"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+        />
+    <TextView        android:id="@+id/tenPara20"
+        android:layout_below="@+id/tenPara19"
+
+        android:layout_height="wrap_content"
+        android:text="@string/tenPara20"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+        />
+    <TextView        android:id="@+id/tenPara21"
+        android:layout_below="@+id/tenPara20"
+
+        android:layout_height="wrap_content"
+        android:text="@string/tenPara21"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+        />
+    <TextView        android:id="@+id/tenPara22"
+        android:layout_below="@+id/tenPara21"
+
+        android:layout_height="wrap_content"
+        android:text="@string/tenPara22"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+        />
+    <TextView        android:id="@+id/tenPara23"
+        android:layout_below="@+id/tenPara22"
+
+        android:layout_height="wrap_content"
+        android:text="@string/tenPara23"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="match_parent"
+        android:textColor="#ff5a68"
+        android:background="@color/black"
+        />
+    <TextView        android:id="@+id/tenPara24"
+        android:layout_below="@+id/tenPara23"
+        android:layout_height="wrap_content"
+        android:text="@string/tenPara24"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+        />
 
 
-    <RelativeLayout
-        android:layout_marginTop="100dp"
+    <TextView        android:id="@+id/tenPara25"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tenPara24"
+        android:fontFamily="monospace"
+        android:text="@string/tenPara25"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:layout_width="wrap_content"
+        />
+
+
+
+
+
+    <TextView        android:layout_height="40dp"
+        android:layout_below="@+id/tenPara25"
+        android:layout_width="wrap_content"
+        />
+    <RelativeLayout        android:layout_marginTop="100dp"
         android:id="@+id/footer"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:layout_alignParentBottom="true"
-        android:background="@drawable/footer_img"
-        android:gravity="center" >
-        <Button
 
-            android:paddingRight="10dp"
-            android:layout_marginRight="100dp"
+        android:gravity="center" >
+
+        <ImageButton            android:layout_marginLeft="-40dp"
+            android:layout_marginRight="190dp"
             android:id="@+id/btn1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="mark Complete"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/done"
 
             />
-        <Button
+        <ImageButton
             android:layout_toRightOf="@+id/btn1"
             android:id="@+id/btn2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Next"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/next"
 
             />
 
-
     </RelativeLayout>
-
 
 </RelativeLayout>

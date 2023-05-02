@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fourteenTitle">Multithreading</string>
+    <string name="fourteenPara1">Multithreading is a powerful feature of modern programming languages, and it allows a program to execute multiple threads of code simultaneously. In C++, multithreading is supported by the standard library through the use of the &lt;thread&gt; header file and other related classes.</string>
+    <string name="fourteenPara2">To create a new thread in C++, you can use the std::thread class. The basic syntax for creating a new thread is as follows:</string>
+    <string name="fourteenPara3">std::thread thread_name(function_name, arguments);</string>
+    <string name="fourteenPara4">Here, thread_name is the name of the new thread, function_name is the name of the function to be executed by the new thread, and arguments is a list of arguments to be passed to the function.</string>
+    <string name="fourteenPara5">For example, consider the following code:</string>
+    <string name="fourteenPara6">#include &lt;&lt;iostream&gt;&gt;\n#include &lt;thread&gt;\n\nvoid hello()\n{\n    std::cout &lt;&lt; "Hello, world!" &lt;&lt; std::endl;\n}\n\nint main()\n{\n    std::thread t(hello);\n    t.join();\n    return 0;\n}\n</string>
+    <string name="fourteenPara7">In this code, a new thread is created using the std::thread class, and the hello() function is executed by the new thread. The join() method is used to wait for the thread to complete before the program exits.</string>
+    <string name="fourteenPara8">C++ also provides several synchronization primitives, such as mutexes and condition variables, that can be used to coordinate access to shared resources between multiple threads. For example, the std::mutex class can be used to protect a critical section of code from simultaneous access by multiple threads.</string>
+    <string name="fourteenPara9">For example, consider the following code:</string>
+    <string name="fourteenPara10">#include &lt;iostream&gt;\n#include &lt;thread&gt;\n#include &lt;mutex&gt;\n\nstd::mutex mtx;\n\nvoid print_number(int num)\n{\n    std::lock_guard&lt;std::mutex&gt; lock(mtx);\n    std::cout &lt;&lt; num &lt;&lt; std::endl;\n}\n\nint main()\n{\n    std::thread t1(print_number, 1);\n    std::thread t2(print_number, 2);\n    t1.join();\n    t2.join();\n    return 0;\n}\n</string>
+    <string name="fourteenPara11">In this code, two threads are created to print the numbers 1 and 2 to the console, respectively. The std::mutex class is used to protect the std::cout stream from simultaneous access by multiple threads, and the std::lock_guard class is used to acquire and release the mutex automatically.</string>
+    <string name="fourteenPara12">Multithreading in C++ can be a complex topic, and it requires careful consideration of synchronization and concurrency issues. However, when used correctly, multithreading can greatly improve the performance and scalability of a program, allowing it to take advantage of modern multi-core processors and other hardware resources.</string>
+
+
+
+
+</resources>

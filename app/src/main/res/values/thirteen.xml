@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="thirteenTitle">Exception in C++</string>
+    <string name="thirteenPara1">In C++, exceptions are a way of handling errors and other exceptional situations that may occur during program execution. When an error occurs, an exception is thrown, which can be caught and handled by the program.</string>
+    <string name="thirteenPara2">The basic syntax for throwing an exception in C++ is as follows:</string>
+    <string name="thirteenPara3">throw exception_type;</string>
+    <string name="thirteenPara4">Here, exception_type is the type of exception that is being thrown. The throw keyword causes the program to stop executing and transfers control to an exception handler.</string>
+    <string name="thirteenPara5">To catch an exception in C++, you can use a try-catch block. The syntax for a try-catch block is as follows:</string>
+    <string name="thirteenPara6">try {\n    // code that may throw an exception\n} catch (exception_type) {\n    // code to handle the exception\n}\n</string>
+    <string name="thirteenPara7">Here, the code inside the try block is executed, and if an exception is thrown, it is caught by the catch block. The exception_type in the catch block specifies the type of exception that is being caught.</string>
+    <string name="thirteenPara8">C++ provides several built-in exception types, such as std::exception, which is the base class for all standard C++ exceptions, and std::runtime_error, which represents a runtime error that can be caught and handled by the program. You can also define your own custom exception types by deriving from std::exception.</string>
+    <string name="thirteenPara9">For example, consider the following code:</string>
+    <string name="thirteenPara10">#include &lt;iostream&gt;\n#include &lt;stdexcept&gt;\n\ndouble divide(double a, double b)\n{\n    if (b == 0) {\n        throw std::runtime_error("division by zero");\n    }\n    return a / b;\n}\n\nint main()\n{\n    double x, y;\n    std::cout &lt;&lt; "Enter two numbers: ";\n    std::cin >> x >> y;\n    try {\n        double result = divide(x, y);\n        std::cout &lt;&lt; "Result: " &lt;&lt; result &lt;&lt; std::endl;\n    } catch (std::exception&amp; e) {\n        std::cerr &lt;&lt; "Error: " &lt;&lt; e.what() &lt;&lt; std::endl;\n    }\n    return 0;\n}\n</string>
+    <string name="thirteenPara11">In this code, the divide() function checks if the second argument is zero, and if so, it throws a std::runtime_error exception. The main() function calls the divide() function inside a try-catch block, and if an exception is thrown, it is caught and handled by printing an error message to the console.</string>
+    <string name="thirteenPara12">Exceptions in C++ provide a powerful mechanism for handling errors and other exceptional situations that may occur during program execution. By throwing and catching exceptions, you can write more robust and reliable code that can handle unexpected situations in a graceful manner.</string>
+
+
+
+</resources>

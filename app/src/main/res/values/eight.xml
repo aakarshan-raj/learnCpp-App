@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="eightTitle">Inheritance</string>
+    <string name="eightPara1">Inheritance and polymorphism are two important concepts in object-oriented programming that are often used together in C++. In this chapter, we will explore these concepts in detail.</string>
+    <string name="eightPara2">Inheritance is a mechanism in C++ that allows you to create a new class (called a derived class) from an existing class (called a base class). The derived class inherits the data members and member functions of the base class, and can add its own data members and member functions.</string>
+    <string name="eightPara3">Here"'"s an example of how to define a derived class in C++:</string>
+    <string name="eightPara4">class MyBaseClass {\n  public:\n    int my_variable;\n    void my_function() {\n      // Do something\n    }\n};\n\nclass MyDerivedClass : public MyBaseClass {\n  public:\n    void my_new_function() {\n      // Do something else\n    }\n};</string>
+    <string name="eightPara5">This creates a base class called MyBaseClass with a data member called my_variable and a member function called my_function. Then, a derived class called MyDerivedClass is created that inherits from the MyBaseClass base class and adds its own my_new_function member function.To access the data members and member functions of a base class in a derived class, you use the scope resolution operator (::). For example:</string>
+    <string name="eightPara6">MyDerivedClass my_object;\nmy_object.my_variable = 42; // Access the data member of the base class\nmy_object.my_function(); // Call the member function of the base class\nmy_object.my_new_function(); // Call the member function of the derived class\n</string>
+    <string name="eightPara7">Polymorphism</string>
+    <string name="eightPara8">Polymorphism is a concept in C++ that allows objects of different types to be treated as if they were of the same type. This is achieved through the use of virtual functions.</string>
+    <string name="eightPara9">A virtual function is a member function of a base class that is marked as virtual. When a derived class overrides a virtual function, it provides its own implementation of the function that is used instead of the implementation in the base class</string>
+    <string name="eightPara10">Here"'"s an example of how to define a virtual function in C++:</string>
+    <string name="eightPara11">class MyBaseClass {\n  public:\n    virtual void my_function() {\n      // Do something\n    }\n};\n\nclass MyDerivedClass : public MyBaseClass {\n  public:\n    void my_function() override {\n      // Do something else\n    }\n};\n</string>
+    <string name="eightPara12">This creates a base class called MyBaseClass with a virtual member function called my_function. Then, a derived class called MyDerivedClass is created that overrides the my_function member function.To use polymorphism in C++, you create a pointer of the base class type and assign it to an object of the derived class type. Then, you can call the virtual function through the pointer, and the correct implementation of the function (from the derived class) will be called.Here"'"s an example of how to use polymorphism in C++:</string>
+    <string name="eightPara13">MyBaseClass* my_pointer = new MyDerivedClass;\nmy_pointer->my_function(); // Calls the implementation of my_function from MyDerivedClass</string>
+    <string name="eightPara14">In this example, a pointer of the base class type (MyBaseClass*) is assigned to an object of the derived class type (new MyDerivedClass). Then, the virtual function my_function is called through the pointer, which calls the implementation of the function from the MyDerivedClass derived class.</string>
+    <string name="eightPara15">Conclusion</string>
+    <string name="eightPara16">Inheritance and polymorphism are important concepts in C++ programming. They provide a way to create complex and modular code by allowing you to reuse existing code and create objects of different types that can be treated as if they were of the same type. Understanding how to use inheritance and polymorphism can greatly enhance the flexibility and reusability of your code.</string>
+
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="elevenTitle">Input and Output Stream</string>
+    <string name="elevenPara1">C++ input and output streams provide a standard way of handling different types of input and output operations. The standard input stream is known as cin, and the standard output stream is cout. Both streams are defined in the iostream header file, which is included in most C++ programs.</string>
+    <string name="elevenPara2">Input streams are used to read data from input devices, such as the keyboard, files, and network connections. The cin stream is used to read data from the keyboard, and it provides several methods to extract data of different types, such as getline() for reading a string of characters, and >> operator for reading other data types, such as integers, floating-point numbers, and characters.</string>
+    <string name="elevenPara3">For example, to read an integer from the keyboard, you can use the following code:</string>
+    <string name="elevenPara4">int n;\ncout &lt;&lt; \u0022Enter an integer: \u0022;\ncin &gt;&gt; n;\n</string>
+    <string name="elevenPara5">In this code, the user is prompted to enter an integer, and the >> operator is used to extract the input from the cin stream and store it in the variable n. If the user enters a non-integer value, the cin stream will set a failbit, indicating that the input was not in the expected format.</string>
+    <string name="elevenPara6">Output streams are used to write data to output devices, such as the screen, files, and network connections. The cout stream is used to write data to the screen, and it provides several methods to insert data of different types, such as the &lt;&lt; operator for inserting strings, integers, and floating-point numbers, and the put() method for inserting individual characters.</string>
+    <string name="elevenPara7">For example, to write a message to the screen, you can use the following code:</string>
+    <string name="elevenPara8">cout &lt;&lt; \u0022Hello, World!\u0022 &lt;&lt; endl;</string>
+    <string name="elevenPara9">In this code, the &lt;&lt; operator is used to insert the string "Hello, World!" into the cout stream, and the endl manipulator is used to insert a newline character at the end of the output.</string>
+    <string name="elevenPara10">In addition to the standard input and output streams, C++ provides other input and output streams, such as cerr for writing error messages to the screen, and clog for writing log messages to the screen. These streams are also defined in the iostream header file.</string>
+    <string name="elevenPara11">In C++, you can also create your own input and output streams using stream classes. The ifstream class is used to read data from a file, while the ofstream class is used to write data to a file. These classes are also defined in the iostream header file.</string>
+    <string name="elevenPara12">For example, to read data from a file, you can use the following code:</string>
+    <string name="elevenPara13">Code\n#include &lt;fstream&gt;\n#include &lt;iostream&gt;\n\nusing namespace std;\n\nint main()\n{\n    ifstream myfile(\u0022example.txt\u0022);\n    if (myfile.is_open())\n    {\n        string line;\n        while (getline(myfile, line))\n        {\n            cout &lt;&lt; line &lt;&lt;;\n        }\n        myfile.close();\n    }\n    else\n    {\n        cout &lt;&lt; \u0022Unable to open file\u0022;\n    }\n    return 0;\n}\n</string>
+    <string name="elevenPara14">In this code, the ifstream class is used to read data from the file \u0022example.txt\u0022. The is_open() method is used to check if the file was opened successfully, and the getline() method is used to read each line of the file and output it to the screen using the cout stream.</string>
+    <string name="elevenPara15">In summary, input and output streams are a fundamental part of C++ programming, and they provide a flexible and convenient way of handling different types of input and output operations. The standard input and output streams, cin and cout, are used to read input from the keyboard and write output to the screen, respectively. Additionally, C++ provides</string>
+
+
+</resources>

@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,37 +6,207 @@
     android:orientation="vertical"
     >
 
+    <TextView        android:layout_marginTop="50dp"
+        android:id="@+id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:text="@string/fifteenTitle"
+        android:textSize="40dp"
+        android:layout_width="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/fifteenPara1"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:fontFamily="monospace"
+        android:text="@string/fifteenPara1"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:layout_width="wrap_content"
+        />
+    <TextView        android:id="@+id/fifteenPara2"
+        android:layout_below="@+id/fifteenPara1"
+        android:layout_height="wrap_content"
+        android:text="@string/fifteenPara2"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+        />
+    <TextView        android:id="@+id/fifteenPara3"
+        android:layout_below="@+id/fifteenPara2"
+        android:layout_height="wrap_content"
+        android:text="@string/fifteenPara3"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="match_parent"
+        android:textColor="#ff5a68"
+        android:background="@color/black"
+
+        />
+    <TextView        android:id="@+id/fifteenPara4"
+        android:layout_below="@+id/fifteenPara3"
+
+        android:layout_height="wrap_content"
+        android:text="@string/fifteenPara4"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+
+        />
+
+    <TextView        android:id="@+id/fifteenPara5"
+        android:layout_below="@+id/fifteenPara4"
+        android:layout_height="wrap_content"
+        android:text="@string/fifteenPara5"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="match_parent"
+        android:textColor="#ff5a68"
+        android:background="@color/black"
+        />
+
+    <!--    code related-->
+    <TextView
+        android:id="@+id/fifteenPara6"
+        android:layout_below="@+id/fifteenPara5"
+
+        android:layout_height="wrap_content"
+        android:text="@string/fifteenPara6"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+        />
+    <TextView        android:id="@+id/fifteenPara7"
+        android:layout_below="@+id/fifteenPara6"
+
+        android:layout_height="wrap_content"
+        android:text="@string/fifteenPara7"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+        />
+    <TextView        android:id="@+id/fifteenPara8"
+        android:layout_below="@+id/fifteenPara7"
+
+        android:layout_height="wrap_content"
+        android:text="@string/fifteenPara8"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="match_parent"
+        android:textColor="#ff5a68"
+        android:background="@color/black"
+        />
+    <TextView        android:id="@+id/fifteenPara9"
+        android:layout_below="@+id/fifteenPara8"
+
+        android:layout_height="wrap_content"
+        android:text="@string/fifteenPara9"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+        />
+    <TextView        android:id="@+id/fifteenPara10"
+        android:layout_below="@+id/fifteenPara9"
+
+        android:layout_height="wrap_content"
+        android:text="@string/fifteenPara10"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+        />
+    <TextView        android:id="@+id/fifteenPara11"
+        android:layout_below="@+id/fifteenPara10"
+
+        android:layout_height="wrap_content"
+        android:text="@string/fifteenPara11"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+        />
+    <TextView        android:id="@+id/fifteenPara12"
+        android:layout_below="@+id/fifteenPara11"
+
+        android:layout_height="wrap_content"
+        android:text="@string/fifteenPara12"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="match_parent"
+        android:textColor="#ff5a68"
+        android:background="@color/black"
+        />
+    <TextView        android:id="@+id/fifteenPara13"
+        android:layout_below="@+id/fifteenPara12"
+
+        android:layout_height="wrap_content"
+        android:text="@string/fifteenPara13"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+        />
+    <TextView        android:id="@+id/fifteenPara14"
+        android:layout_below="@+id/fifteenPara13"
+
+        android:layout_height="wrap_content"
+        android:text="@string/fifteenPara14"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+        />
+    <TextView        android:id="@+id/fifteenPara15"
+        android:layout_below="@+id/fifteenPara14"
+
+        android:layout_height="wrap_content"
+        android:text="@string/fifteenPara15"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+        />
 
 
-    <RelativeLayout
-        android:layout_marginTop="100dp"
+    <TextView        android:layout_height="40dp"
+        android:layout_below="@+id/fifteenPara15"
+        android:layout_width="wrap_content"
+        />
+    <RelativeLayout        android:layout_marginTop="100dp"
         android:id="@+id/footer"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:layout_alignParentBottom="true"
-        android:background="@drawable/footer_img"
-        android:gravity="center" >
-        <Button
 
-            android:paddingRight="10dp"
-            android:layout_marginRight="100dp"
+        android:gravity="center" >
+
+        <ImageButton            android:layout_marginLeft="-40dp"
+            android:layout_marginRight="190dp"
             android:id="@+id/btn1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="mark Complete"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/done"
 
             />
-        <Button
+        <ImageButton
             android:layout_toRightOf="@+id/btn1"
             android:id="@+id/btn2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Next"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/next"
 
             />
 
-
     </RelativeLayout>
-
 
 </RelativeLayout>

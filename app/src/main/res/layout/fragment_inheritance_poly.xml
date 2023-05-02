@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,37 +6,219 @@
     android:orientation="vertical"
     >
 
+    <TextView        android:layout_marginTop="50dp"
+        android:id="@+id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:text="@string/eightTitle"
+        android:textSize="40dp"
+        android:layout_width="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/eightPara1"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:fontFamily="monospace"
+        android:text="@string/eightPara1"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:layout_width="wrap_content"
+        />
+    <TextView        android:id="@+id/eightPara2"
+        android:layout_below="@+id/eightPara1"
+        android:layout_height="wrap_content"
+        android:text="@string/eightPara2"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+        />
+    <TextView        android:id="@+id/eightPara3"
+        android:layout_below="@+id/eightPara2"
+        android:layout_height="wrap_content"
+        android:text="@string/eightPara3"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+
+        />
+    <TextView        android:id="@+id/eightPara4"
+        android:layout_below="@+id/eightPara3"
+
+        android:layout_height="wrap_content"
+        android:text="@string/eightPara4"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="match_parent"
+        android:textColor="#ff5a68"
+        android:background="@color/black"
+
+        />
+
+    <TextView        android:id="@+id/eightPara5"
+        android:layout_below="@+id/eightPara4"
+        android:layout_height="wrap_content"
+        android:text="@string/eightPara5"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+        />
+
+    <!--    code related-->
+    <TextView
+        android:id="@+id/eightPara6"
+        android:layout_below="@+id/eightPara5"
+
+        android:layout_height="wrap_content"
+        android:text="@string/eightPara6"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="match_parent"
+        android:textColor="#ff5a68"
+        android:background="@color/black"
+        />
+    <TextView        android:id="@+id/eightPara7"
+        android:layout_below="@+id/eightPara6"
+
+        android:layout_height="wrap_content"
+        android:text="@string/eightPara7"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+        />
+    <TextView        android:id="@+id/eightPara8"
+        android:layout_below="@+id/eightPara7"
+
+        android:layout_height="wrap_content"
+        android:text="@string/eightPara8"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+        />
+    <TextView        android:id="@+id/eightPara9"
+        android:layout_below="@+id/eightPara8"
+
+        android:layout_height="wrap_content"
+        android:text="@string/eightPara9"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+        />
+    <TextView        android:id="@+id/eightPara10"
+        android:layout_below="@+id/eightPara9"
+
+        android:layout_height="wrap_content"
+        android:text="@string/eightPara10"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+        />
+    <TextView        android:id="@+id/eightPara11"
+        android:layout_below="@+id/eightPara10"
+
+        android:layout_height="wrap_content"
+        android:text="@string/eightPara11"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="match_parent"
+        android:textColor="#ff5a68"
+        android:background="@color/black"
+        />
+    <TextView        android:id="@+id/eightPara12"
+        android:layout_below="@+id/eightPara11"
+
+        android:layout_height="wrap_content"
+        android:text="@string/eightPara12"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+        />
+    <TextView        android:id="@+id/eightPara13"
+        android:layout_below="@+id/eightPara12"
+
+        android:layout_height="wrap_content"
+        android:text="@string/eightPara13"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="match_parent"
+        android:textColor="#ff5a68"
+        android:background="@color/black"
+        />
+    <TextView        android:id="@+id/eightPara14"
+        android:layout_below="@+id/eightPara13"
+
+        android:layout_height="wrap_content"
+        android:text="@string/eightPara14"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+        />
+    <TextView        android:id="@+id/eightPara15"
+        android:layout_below="@+id/eightPara14"
+
+        android:layout_height="wrap_content"
+        android:text="@string/eightPara15"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+        />
+    <TextView        android:id="@+id/eightPara16"
+        android:layout_below="@+id/eightPara15"
+
+        android:layout_height="wrap_content"
+        android:text="@string/eightPara16"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+        />
 
 
-    <RelativeLayout
-        android:layout_marginTop="100dp"
+
+
+    <TextView        android:layout_height="40dp"
+        android:layout_below="@+id/eightPara16"
+        android:layout_width="wrap_content"
+        />
+    <RelativeLayout        android:layout_marginTop="100dp"
         android:id="@+id/footer"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:layout_alignParentBottom="true"
-        android:background="@drawable/footer_img"
-        android:gravity="center" >
-        <Button
 
-            android:paddingRight="10dp"
-            android:layout_marginRight="100dp"
+        android:gravity="center" >
+
+        <ImageButton            android:layout_marginLeft="-40dp"
+            android:layout_marginRight="190dp"
             android:id="@+id/btn1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="mark Complete"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/done"
 
             />
-        <Button
+        <ImageButton
             android:layout_toRightOf="@+id/btn1"
             android:id="@+id/btn2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Next"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/next"
 
             />
 
-
     </RelativeLayout>
-
 
 </RelativeLayout>

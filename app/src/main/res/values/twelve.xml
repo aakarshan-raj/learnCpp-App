@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="twelveTitle">Memory management </string>
+    <string name="twelvePara1">Memory management is an essential aspect of C++ programming, and it refers to the allocation and deallocation of memory for storing data during program execution. In C++, there are two main ways of allocating memory: on the stack and on the heap.</string>
+    <string name="twelvePara2">Stack memory allocation is used for local variables and function parameters, and it is automatically managed by the compiler. When a function is called, the compiler allocates memory on the stack for the function parameters and local variables. When the function returns, the memory is automatically deallocated, freeing up the memory for other uses.</string>
+    <string name="twelvePara3">For example, consider the following code:</string>
+    <string name="twelvePara4">void foo(int x, int y)\n{\n    int z = x + y;\n    // code to use z\n}\n\nint main()\n{\n    int a = 10;\n    int b = 20;\n    foo(a, b);\n    return 0;\n}\n</string>
+    <string name="twelvePara5">In this code, the foo() function takes two integer parameters, x and y, and allocates memory on the stack for the local variable z. When the foo() function returns, the memory allocated for z is automatically deallocated.</string>
+    <string name="twelvePara6">Heap memory allocation, on the other hand, is used for dynamic memory allocation, where the memory is allocated and deallocated manually by the programmer. The programmer is responsible for managing the memory, which means that the memory must be explicitly allocated when needed and deallocated when it is no longer required.</string>
+    <string name="twelvePara7">In C++, heap memory allocation is done using the new operator, which returns a pointer to the allocated memory. The memory can be deallocated using the delete operator, which frees up the memory and returns it to the system.</string>
+    <string name="twelvePara8">For example, consider the following code:</string>
+    <string name="twelvePara9">int* p = new int;\n*p = 10;\n// code to use p\ndelete p;\n</string>
+    <string name="twelvePara10">In this code, the new operator is used to allocate memory on the heap for an integer value, and the pointer p is used to access the allocated memory. The memory is deallocated using the delete operator when it is no longer required.</string>
+    <string name="twelvePara11">C++ also provides dynamic memory allocation for arrays using the new[] operator, and the memory can be deallocated using the delete[] operator.</string>
+    <string name="twelvePara12">Memory management in C++ can be a complex topic, and it is important to ensure that the memory is allocated and deallocated correctly to prevent memory leaks and other memory-related errors. In addition, there are several advanced techniques for managing memory, such as smart pointers, which provide automatic memory management and help prevent common memory-related errors, such as dangling pointers and memory leaks. Smart pointers are part of the C++ Standard Library, and they provide a safer and more convenient way of managing dynamic memory.</string>
+
+</resources>

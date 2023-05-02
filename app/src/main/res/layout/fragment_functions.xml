@@ -3,503 +3,218 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".OperatorsExpression"
+    tools:context=".Functions"
     android:orientation="vertical"
     >
 
-<!--    <TextView        android:layout_marginTop="50dp"-->
-<!--        android:id="@+id/title"-->
-<!--        android:layout_centerHorizontal="true"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="@string/threeTitle"-->
-<!--        android:textSize="40dp"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        />-->
+    <TextView
+        android:layout_marginTop="50dp"
+        android:id="@+id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:text="@string/threeTitle"
+        android:textSize="40dp"
+        android:layout_width="wrap_content"
+        />
 
-<!--    <TextView-->
-<!--        android:id="@+id/onePara1"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_below="@+id/title"-->
-<!--        android:fontFamily="monospace"-->
-<!--        android:text="@string/threePara1"-->
-<!--        android:layout_margin="7dp"-->
-<!--        android:textSize="17dp"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        />-->
-<!--    <TextView        android:id="@+id/onePara2"-->
-<!--        android:layout_below="@+id/onePara1"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="@string/threePara2"-->
-<!--        android:layout_margin="7dp"-->
-<!--        android:textSize="17dp"-->
-<!--        android:fontFamily="monospace"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        />-->
-<!--    <TextView        android:id="@+id/onePara3"-->
-<!--        android:layout_below="@+id/onePara2"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="@string/threePara3"-->
-<!--        android:layout_margin="7dp"-->
-<!--        android:textSize="17dp"-->
-<!--        android:fontFamily="monospace"-->
-<!--        android:layout_width="wrap_content"-->
+    <TextView
+        android:id="@+id/fivePara1"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:fontFamily="monospace"
+        android:text="@string/fivePara1"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:layout_width="wrap_content"
+        />
+    <TextView        android:id="@+id/fivePara2"
+        android:layout_below="@+id/fivePara1"
+        android:layout_height="wrap_content"
+        android:text="@string/fivePara2"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+        />
+    <TextView        android:id="@+id/fivePara3"
+        android:layout_below="@+id/fivePara2"
+        android:layout_height="wrap_content"
+        android:text="@string/fivePara3"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
 
-<!--        />-->
-<!--    <TextView        android:id="@+id/onePara4"-->
-<!--        android:layout_below="@+id/onePara3"-->
+        />
+    <TextView        android:id="@+id/fivePara4"
+        android:layout_below="@+id/fivePara3"
 
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="@string/threePara4"-->
-<!--        android:layout_margin="7dp"-->
-<!--        android:textSize="17dp"-->
-<!--        android:fontFamily="monospace"-->
-<!--        android:layout_width="wrap_content"-->
+        android:layout_height="wrap_content"
+        android:text="@string/fivePara4"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="match_parent"
+        android:textColor="#ff5a68"
+        android:background="@color/black"
 
-<!--        />-->
+        />
 
-<!--    <TextView        android:id="@+id/onePara5"-->
-<!--        android:layout_below="@+id/onePara4"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="@string/threePara5"-->
-<!--        android:layout_margin="7dp"-->
-<!--        android:textSize="17dp"-->
-<!--        android:fontFamily="monospace"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        />-->
+    <TextView        android:id="@+id/fivePara5"
+        android:layout_below="@+id/fivePara4"
+        android:layout_height="wrap_content"
+        android:text="@string/fivePara5"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+        />
 
-<!--    &lt;!&ndash;    code related&ndash;&gt;-->
-<!--    <TextView-->
-<!--        android:id="@+id/onePara6"-->
-<!--        android:layout_below="@+id/onePara5"-->
+    <!--    code related-->
+    <TextView
+        android:id="@+id/fivePara6"
+        android:layout_below="@+id/fivePara5"
 
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="@string/threePara6"-->
-<!--        android:layout_margin="7dp"-->
-<!--        android:textSize="17dp"-->
-<!--        android:fontFamily="monospace"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        />-->
-<!--    <TextView        android:id="@+id/onePara7"-->
-<!--        android:layout_below="@+id/onePara6"-->
+        android:layout_height="wrap_content"
+        android:text="@string/fivePara6"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+        />
+    <TextView        android:id="@+id/fivePara7"
+        android:layout_below="@+id/fivePara6"
 
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="@string/threePara7"-->
-<!--        android:layout_margin="7dp"-->
-<!--        android:textSize="17dp"-->
-<!--        android:fontFamily="monospace"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        />-->
-<!--    <TextView        android:id="@+id/onePara8"-->
-<!--        android:layout_below="@+id/onePara7"-->
+        android:layout_height="wrap_content"
+        android:text="@string/fivePara7"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="match_parent"
+        android:textColor="#ff5a68"
+        android:background="@color/black"
+        />
+    <TextView        android:id="@+id/fivePara8"
+        android:layout_below="@+id/fivePara7"
 
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="@string/threePara8"-->
-<!--        android:layout_margin="7dp"-->
-<!--        android:textSize="17dp"-->
-<!--        android:fontFamily="monospace"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        />-->
-<!--    <TextView        android:id="@+id/onePara9"-->
-<!--        android:layout_below="@+id/onePara8"-->
+        android:layout_height="wrap_content"
+        android:text="@string/fivePara8"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+        />
+    <TextView        android:id="@+id/fivePara9"
+        android:layout_below="@+id/fivePara8"
 
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="@string/threePara9"-->
-<!--        android:layout_margin="7dp"-->
-<!--        android:textSize="17dp"-->
-<!--        android:fontFamily="monospace"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        />-->
-<!--    <TextView        android:id="@+id/onePara10"-->
-<!--        android:layout_below="@+id/onePara9"-->
+        android:layout_height="wrap_content"
+        android:text="@string/fivePara9"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+        />
+    <TextView        android:id="@+id/fivePara10"
+        android:layout_below="@+id/fivePara9"
 
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="@string/threePara10"-->
-<!--        android:layout_margin="7dp"-->
-<!--        android:textSize="17dp"-->
-<!--        android:fontFamily="monospace"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        />-->
-<!--    <TextView        android:id="@+id/onePara11"-->
-<!--        android:layout_below="@+id/onePara10"-->
+        android:layout_height="wrap_content"
+        android:text="@string/fivePara10"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace" android:layout_width="match_parent"
+        android:textColor="#ff5a68"
+        android:background="@color/black"
+        />
+    <TextView        android:id="@+id/fivePara11"
+        android:layout_below="@+id/fivePara10"
 
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="@string/threePara11"-->
-<!--        android:layout_margin="7dp"-->
-<!--        android:textSize="17dp"-->
-<!--        android:fontFamily="monospace"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        />-->
-<!--    <TextView        android:id="@+id/onePara12"-->
-<!--        android:layout_below="@+id/onePara11"-->
+        android:layout_height="wrap_content"
+        android:text="@string/fivePara11"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+        />
+    <TextView        android:id="@+id/fivePara12"
+        android:layout_below="@+id/fivePara11"
 
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="@string/threePara12"-->
-<!--        android:layout_margin="7dp"-->
-<!--        android:textSize="17dp"-->
-<!--        android:fontFamily="monospace"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        />-->
-<!--    <TextView        android:id="@+id/onePara13"-->
-<!--        android:layout_below="@+id/onePara12"-->
+        android:layout_height="wrap_content"
+        android:text="@string/fivePara12"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+        />
+    <TextView        android:id="@+id/fivePara13"
+        android:layout_below="@+id/fivePara12"
 
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="@string/threePara13"-->
-<!--        android:layout_margin="7dp"-->
-<!--        android:textSize="17dp"-->
-<!--        android:fontFamily="monospace"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        />-->
-<!--    <TextView        android:id="@+id/onePara14"-->
-<!--        android:layout_below="@+id/onePara13"-->
+        android:layout_height="wrap_content"
+        android:text="@string/fivePara13"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+        />
+    <TextView        android:id="@+id/fivePara14"
+        android:layout_below="@+id/fivePara13"
 
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="@string/threePara14"-->
-<!--        android:layout_margin="7dp"-->
-<!--        android:textSize="17dp"-->
-<!--        android:fontFamily="monospace"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        />-->
-<!--    <TextView        android:id="@+id/onePara15"-->
-<!--        android:layout_below="@+id/onePara14"-->
+        android:layout_height="wrap_content"
+        android:text="@string/fivePara14"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+        />
+    <TextView        android:id="@+id/fivePara15"
+        android:layout_below="@+id/fivePara14"
 
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="@string/threePara15"-->
-<!--        android:layout_margin="7dp"-->
-<!--        android:textSize="17dp"-->
-<!--        android:fontFamily="monospace"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        />-->
-<!--    <TextView        android:id="@+id/onePara16"-->
-<!--        android:layout_below="@+id/onePara15"-->
+        android:layout_height="wrap_content"
+        android:text="@string/fivePara15"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="match_parent"
+        android:textColor="#ff5a68"
+        android:background="@color/black"
+        />
+    <TextView        android:id="@+id/fivePara16"
+        android:layout_below="@+id/fivePara15"
 
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="@string/threePara16"-->
-<!--        android:layout_margin="7dp"-->
-<!--        android:textSize="17dp"-->
-<!--        android:fontFamily="monospace"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        />-->
-<!--    <TextView        android:id="@+id/onePara17"-->
-<!--        android:layout_below="@+id/onePara16"-->
+        android:layout_height="wrap_content"
+        android:text="@string/fivePara16"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+        />
+    <TextView        android:id="@+id/fivePara17"
+        android:layout_below="@+id/fivePara16"
 
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="@string/threePara17"-->
-<!--        android:layout_margin="7dp"-->
-<!--        android:textSize="17dp"-->
-<!--        android:fontFamily="monospace"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        />-->
-<!--    <TextView        android:id="@+id/onePara18"-->
-<!--        android:layout_below="@+id/onePara17"-->
+        android:layout_height="wrap_content"
+        android:text="@string/fivePara17"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+        />
+    <TextView        android:id="@+id/fivePara18"
+        android:layout_below="@+id/fivePara17"
 
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="@string/threePara18"-->
-<!--        android:layout_margin="7dp"-->
-<!--        android:textSize="17dp"-->
-<!--        android:fontFamily="monospace"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        />-->
-<!--    <TextView        android:id="@+id/onePara19"-->
-<!--        android:layout_below="@+id/onePara18"-->
-
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="@string/threePara19"-->
-<!--        android:layout_margin="7dp"-->
-<!--        android:textSize="17dp"-->
-<!--        android:fontFamily="monospace"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        />-->
-<!--    <TextView        android:id="@+id/onePara20"-->
-<!--        android:layout_below="@+id/onePara19"-->
-
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="@string/threePara20"-->
-<!--        android:layout_margin="7dp"-->
-<!--        android:textSize="17dp"-->
-<!--        android:fontFamily="monospace"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        />-->
-<!--    <TextView        android:id="@+id/onePara21"-->
-<!--        android:layout_below="@+id/onePara20"-->
-
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="@string/threePara21"-->
-<!--        android:layout_margin="7dp"-->
-<!--        android:textSize="17dp"-->
-<!--        android:fontFamily="monospace"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        />-->
-<!--    <TextView        android:id="@+id/onePara22"-->
-<!--        android:layout_below="@+id/onePara21"-->
-
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="@string/threePara22"-->
-<!--        android:layout_margin="7dp"-->
-<!--        android:textSize="17dp"-->
-<!--        android:fontFamily="monospace"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        />-->
-<!--    <TextView        android:id="@+id/onePara23"-->
-<!--        android:layout_below="@+id/onePara22"-->
-
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="@string/threePara23"-->
-<!--        android:layout_margin="7dp"-->
-<!--        android:textSize="17dp"-->
-<!--        android:fontFamily="monospace"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        />-->
-<!--    <TextView        android:id="@+id/onePara24"-->
-<!--        android:layout_below="@+id/onePara23"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="@string/threePara24"-->
-<!--        android:layout_margin="7dp"-->
-<!--        android:textSize="17dp"-->
-<!--        android:fontFamily="monospace"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        />-->
-
-
-<!--    <TextView        android:id="@+id/onePara25"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_below="@+id/onePara24"-->
-<!--        android:fontFamily="monospace"-->
-<!--        android:text="@string/threePara25"-->
-<!--        android:layout_margin="7dp"-->
-<!--        android:textSize="17dp"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        />-->
-<!--    <TextView        android:id="@+id/onePara26"-->
-<!--        android:layout_below="@+id/onePara25"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="@string/threePara26"-->
-<!--        android:layout_margin="7dp"-->
-<!--        android:textSize="17dp"-->
-<!--        android:fontFamily="monospace"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        />-->
-<!--    <TextView        android:id="@+id/onePara27"-->
-<!--        android:layout_below="@+id/onePara26"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="@string/threePara27"-->
-<!--        android:layout_margin="7dp"-->
-<!--        android:textSize="17dp"-->
-<!--        android:fontFamily="monospace"-->
-<!--        android:layout_width="wrap_content"-->
-
-<!--        />-->
-<!--    <TextView        android:id="@+id/onePara28"-->
-<!--        android:layout_below="@+id/onePara27"-->
-
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="@string/threePara28"-->
-<!--        android:layout_margin="7dp"-->
-<!--        android:textSize="17dp"-->
-<!--        android:fontFamily="monospace"-->
-<!--        android:layout_width="wrap_content"-->
-
-<!--        />-->
-
-<!--    <TextView        android:id="@+id/onePara29"-->
-<!--        android:layout_below="@+id/onePara28"-->
-
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="@string/threePara29"-->
-<!--        android:layout_margin="7dp"-->
-<!--        android:textSize="17dp"-->
-<!--        android:fontFamily="monospace"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        />-->
-
-<!--    &lt;!&ndash;    code related&ndash;&gt;-->
-<!--    <TextView-->
-<!--        android:id="@+id/onePara30"-->
-<!--        android:layout_below="@+id/onePara29"-->
-
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="@string/threePara30"-->
-<!--        android:layout_margin="7dp"-->
-<!--        android:textSize="17dp"-->
-<!--        android:fontFamily="monospace"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        />-->
-<!--    <TextView        android:id="@+id/onePara31"-->
-<!--        android:layout_below="@+id/onePara30"-->
-
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="@string/threePara31"-->
-<!--        android:layout_margin="7dp"-->
-<!--        android:textSize="17dp"-->
-<!--        android:fontFamily="monospace"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        />-->
-<!--    <TextView        android:id="@+id/onePara32"-->
-<!--        android:layout_below="@+id/onePara31"-->
-
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="@string/threePara32"-->
-<!--        android:layout_margin="7dp"-->
-<!--        android:textSize="17dp"-->
-<!--        android:fontFamily="monospace"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        />-->
-<!--    <TextView        android:id="@+id/onePara33"-->
-<!--        android:layout_below="@+id/onePara32"-->
-
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="@string/threePara33"-->
-<!--        android:layout_margin="7dp"-->
-<!--        android:textSize="17dp"-->
-<!--        android:fontFamily="monospace"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        />-->
-
-<!--    <TextView        android:id="@+id/onePara34"-->
-<!--        android:layout_below="@+id/onePara33"-->
-
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="@string/threePara34"-->
-<!--        android:layout_margin="7dp"-->
-<!--        android:textSize="17dp"-->
-<!--        android:fontFamily="monospace"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        />-->
-<!--    <TextView        android:id="@+id/onePara35"-->
-<!--        android:layout_below="@+id/onePara34"-->
-
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="@string/threePara35"-->
-<!--        android:layout_margin="7dp"-->
-<!--        android:textSize="17dp"-->
-<!--        android:fontFamily="monospace"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        />-->
-<!--    <TextView        android:id="@+id/onePara36"-->
-<!--        android:layout_below="@+id/onePara35"-->
-
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="@string/threePara36"-->
-<!--        android:layout_margin="7dp"-->
-<!--        android:textSize="17dp"-->
-<!--        android:fontFamily="monospace"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        />-->
-<!--    <TextView        android:id="@+id/onePara37"-->
-<!--        android:layout_below="@+id/onePara36"-->
-
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="@string/threePara37"-->
-<!--        android:layout_margin="7dp"-->
-<!--        android:textSize="17dp"-->
-<!--        android:fontFamily="monospace"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        />-->
-<!--    <TextView        android:id="@+id/onePara38"-->
-<!--        android:layout_below="@+id/onePara37"-->
-
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="@string/threePara38"-->
-<!--        android:layout_margin="7dp"-->
-<!--        android:textSize="17dp"-->
-<!--        android:fontFamily="monospace"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        />-->
-<!--    <TextView        android:id="@+id/onePara39"-->
-<!--        android:layout_below="@+id/onePara38"-->
-
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="@string/threePara39"-->
-<!--        android:layout_margin="7dp"-->
-<!--        android:textSize="17dp"-->
-<!--        android:fontFamily="monospace"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        />-->
-<!--    <TextView        android:id="@+id/onePara40"-->
-<!--        android:layout_below="@+id/onePara39"-->
-
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="@string/threePara40"-->
-<!--        android:layout_margin="7dp"-->
-<!--        android:textSize="17dp"-->
-<!--        android:fontFamily="monospace"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        />-->
-<!--    <TextView        android:id="@+id/onePara41"-->
-<!--        android:layout_below="@+id/onePara40"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="@string/threePara41"-->
-<!--        android:layout_margin="7dp"-->
-<!--        android:textSize="17dp"-->
-<!--        android:fontFamily="monospace"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        />-->
-<!--    <TextView        android:id="@+id/onePara42"-->
-<!--        android:layout_below="@+id/onePara41"-->
-
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="@string/threePara42"-->
-<!--        android:layout_margin="7dp"-->
-<!--        android:textSize="17dp"-->
-<!--        android:fontFamily="monospace"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        />-->
-<!--    <TextView        android:id="@+id/onePara43"-->
-<!--        android:layout_below="@+id/onePara42"-->
-
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="@string/threePara43"-->
-<!--        android:layout_margin="7dp"-->
-<!--        android:textSize="17dp"-->
-<!--        android:fontFamily="monospace"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        />-->
-<!--    <TextView        android:id="@+id/onePara44"-->
-<!--        android:layout_below="@+id/onePara43"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="@string/threePara44"-->
-<!--        android:layout_margin="7dp"-->
-<!--        android:textSize="17dp"-->
-<!--        android:fontFamily="monospace"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        />-->
-<!--    <TextView        android:id="@+id/onePara45"-->
-<!--        android:layout_below="@+id/onePara44"-->
-
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="@string/threePara45"-->
-<!--        android:layout_margin="7dp"-->
-<!--        android:textSize="17dp"-->
-<!--        android:fontFamily="monospace"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        />-->
-<!--    <TextView        android:id="@+id/onePara46"-->
-<!--        android:layout_below="@+id/onePara45"-->
-
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="@string/threePara46"-->
-<!--        android:layout_margin="7dp"-->
-<!--        android:textSize="17dp"-->
-<!--        android:fontFamily="monospace"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        />-->
-<!--    <TextView        android:id="@+id/onePara47"-->
-<!--        android:layout_below="@+id/onePara46"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="@string/threePara47"-->
-<!--        android:layout_margin="7dp"-->
-<!--        android:textSize="17dp"-->
-<!--        android:fontFamily="monospace"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        />-->
+        android:layout_height="wrap_content"
+        android:text="@string/fivePara18"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+        />
 
 
 
-
-<!--    <TextView        -->
-<!--        android:layout_height="40dp"-->
-<!--        android:layout_below="@+id/onePara47"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        />-->
+    <TextView
+        android:layout_height="40dp"
+        android:layout_below="@+id/fivePara18"
+        android:layout_width="wrap_content"
+        />
     <RelativeLayout        android:layout_marginTop="100dp"
         android:id="@+id/footer"
         android:layout_width="match_parent"

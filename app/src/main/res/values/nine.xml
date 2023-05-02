@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nineTitle">Templates</string>
+    <string name="ninePara1">Templates are a powerful feature of C++ that allow you to write generic code that can work with different types of data. Templates can be used to define classes and functions that work with any data type, as long as that type supports the operations used by the template.</string>
+    <string name="ninePara2">Function Templates</string>
+    <string name="ninePara3">Function templates allow you to define a function that can be used with different data types. The template definition includes a type parameter, which is used to represent the data type that will be used with the function. Here"'"s an example of a function template that returns the minimum of two values:</string>
+    <string name="ninePara4">template &lt;typename T&gt;\nT min(T a, T b) {\n  return a &lt; b ? a : b;\n}\n</string>
+    <string name="ninePara5">In this example, the type parameter is T. The typename keyword is used to tell the compiler that T is a type parameter, rather than a variable. The function then compares the two values using the &lt; operator and returns the smaller of the two.</string>
+    <string name="ninePara6">You can use this function template with different data types, such as int and double, like this:</string>
+    <string name="ninePara7">int a = 42, b = 13;\nstd::cout &lt;&lt; min(a, b) &lt;&lt; std::endl;  // prints 13\n\ndouble x = 3.14, y = 2.71;\nstd::cout &lt;&lt; min(x, y) &lt;&lt; std::endl;  // prints 2.71\n</string>
+    <string name="ninePara8">Class Templates</string>
+    <string name="ninePara9">Class templates allow you to define a class that can be used with different data types. The template definition includes one or more type parameters, which are used to represent the data types that will be used with the class. Here"'"s an example of a class template that defines a stack data structure:</string>
+    <string name="ninePara10">template &lt;typename T&gt;\nclass Stack {\npublic:\n  void push(T value);\n  T pop();\nprivate:\n  std::vector&lt;T&gt; data_;\n};\n</string>
+    <string name="ninePara11">In this example, the type parameter is T. The push function adds a value of type T to the stack, while the pop function removes and returns the top value from the stack. The data_ member variable is a vector of type T that holds the stack data.</string>
+    <string name="ninePara12">You can use this class template with different data types, such as int and std::string, like this:</string>
+    <string name="ninePara13">Stack&lt;int&gt; int_stack;\nint_stack.push(42);\nint_stack.push(13);\nstd::cout &lt;&lt; int_stack.pop() &lt;&lt; std::endl;  // prints 13\n\nStack&lt;std::string> string_stack;\nstring_stack.push("hello");\nstring_stack.push("world");\nstd::cout &lt;&lt; string_stack.pop() &lt;&lt;std::endl;  // prints "world"\n</string>
+    <string name="ninePara14">Conclusion</string>
+    <string name="ninePara15">Templates are a powerful feature of C++ that allow you to write generic code that can work with different types of data. Function templates and class templates provide a way to write reusable code that can be used with any data type, as long as that type supports the operations used by the template. By using templates, you can write code that is more flexible, more efficient, and easier to maintain. It is important to become familiar with the key concepts of templates and how to use them effectively in your C++ programs.</string>
+
+
+
+
+
+</resources>

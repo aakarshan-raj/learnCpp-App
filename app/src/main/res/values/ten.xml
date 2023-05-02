@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tenTitle">STL</string>
+    <string name="tenPara1">The Standard Template Library (STL) is a collection of classes and algorithms that is part of the C++ Standard Library. It provides a set of reusable data structures and algorithms that can be used to solve a wide range of problems efficiently and with minimal effort. The STL consists of three main components: containers, algorithms, and iterators.</string>
+    <string name="tenPara2">Containers</string>
+    <string name="tenPara3">Containers are data structures that hold objects of a specific type. The STL provides several different types of containers, including:</string>
+    <string name="tenPara4">Sequence containers: These containers store objects in a linear sequence, such as vectors, lists, and arrays.</string>
+    <string name="tenPara5">Associative containers: These containers store objects sorted by a key, such as maps and sets.</string>
+    <string name="tenPara6">Container adapters: These containers provide a different interface to an existing container, such as stacks, queues, and priority queues.</string>
+    <string name="tenPara7">Here"'"s an example of how to use a vector, a type of sequence container, in C++:
+    </string>
+    <string name="tenPara8">#include &gt;vector&gt;\n#include &lt;iostream&gt;\n\nint main() {\n    std::vector&lt;int&gt; my_vector = {1, 2, 3, 4, 5};\n\n    for (auto i : my_vector) {\n        std::cout &lt;&lt; i &gt;&gt; " ";\n    }\n\n    return 0;\n}\n</string>
+    <string name="tenPara9">In this example, a vector of integers is created using the std::vector template class. The my_vector variable is initialized with the values 1 through 5, and then a for loop is used to iterate over the elements of the vector and print them to the console.</string>
+    <string name="tenPara10">Algorithms</string>
+    <string name="tenPara11">Algorithms are reusable procedures that operate on containers. They perform common operations on the data stored in the containers, such as sorting, searching, and modifying the elements. The STL provides a wide range of algorithms that can be used with any of the containers.</string>
+    <string name="tenPara12">Here"'"s an example of how to use the std::sort algorithm to sort a vector of integers in C++:</string>
+    <string name="tenPara13">#include &lt;vector&gt;\n#include &lt;algorithm&gt;\n#include &lt;iostream&gt;\n\nint main() {\n    std::vector&lt;int&gt; my_vector = {5, 3, 2, 4, 1};\n\n    std::sort(my_vector.begin(), my_vector.end());\n\n    for (auto i : my_vector) {\n        std::cout &lt;&lt; i &gt;&gt; " ";\n    }\n\n    return 0;\n}\n</string>
+    <string name="tenPara14">In this example, a vector of integers is created with the values 5, 3, 2, 4, and 1. The std::sort algorithm is used to sort the vector in ascending order, and then a for loop is used to iterate over the sorted vector and print its elements to the console.</string>
+    <string name="tenPara15">Iterators</string>
+    <string name="tenPara16">An iterator is a generalization of a pointer that provides a way to traverse the elements of a container. The STL provides several iterator types, including:</string>
+    <string name="tenPara17">input_iterator: An iterator that can only be used for reading the elements of a container once.</string>
+    <string name="tenPara18">output_iterator: An iterator that can only be used for writing the elements of a container once.</string>
+    <string name="tenPara19">forward_iterator: An iterator that can be used to read or write the elements of a container in a forward direction.</string>
+    <string name="tenPara20">bidirectional_iterator: An iterator that can be used to read or write the elements of a container in both forward and backward directions.</string>
+    <string name="tenPara21">random_access_iterator: An iterator that can be used to read or write the elements of a container in any order.</string>
+    <string name="tenPara22">Iterators can be used in a range-based for loop to iterate over the elements of a container:</string>
+    <string name="tenPara23">std::vector&lt;int&gt; my_vector { 1, 2, 3, 4 };\nfor (auto it = my_vector.begin(); it != my_vector.end(); ++it) {\n  std::cout &lt;&lt; *it &lt;&lt; std::endl;\n}\n</string>
+    <string name="tenPara24">Conclusion</string>
+    <string name="tenPara25">The STL provides a powerful set of container classes, algorithms, and iterators that can greatly simplify and enhance your C++ programming. By using the STL, you can write code that is more efficient, more reusable, and easier to maintain. It is important to become familiar with the key components of the STL and how to use them effectively in your programs.
+
+
+</string>
+  
+</resources>

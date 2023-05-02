@@ -1,60 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources>       
+    <string name="fiveTitle">Functions</string>
+    <string name="fivePara1">What is a Function?\nFunctions in C++ are an essential feature of the language. They allow developers to break down complex programs into smaller, more manageable pieces of code. In this chapter, we will explore the basics of functions in C++.
+</string>
+    <string name="fivePara2">A function in C++ is a block of code that performs a specific task. It can take input, perform operations on that input, and then return a value. Functions can be called from within a program to perform a task, and they can also be reused in different parts of the program.</string>
+    <string name="fivePara3">Functions are typically defined using the following syntax:</string>
+    <string name="fivePara4">return_type function_name(parameter_list) {\n  // Function code goes here\n  return return_value;\n}</string>
+    <string name="fivePara5">return_type: This is the data type of the value that the function returns. It can be any valid data type, including int, float, double, char, bool, and void (if the function does not return a value).\nfunction_name: This is the name of the function. It should be descriptive and reflect the task that the function performs.\nparameter_list: This is a list of input parameters that the function accepts. Each parameter consists of a data type and a variable name that will be used to refer to the parameter within the function.\nreturn_value: This is the value that the function returns. It can be of the same data type as the return_type.</string>
+    <string name="fivePara6">Here is an example function that takes two integer parameters and returns their sum:</string>
+    <string name="fivePara7">int sum(int a, int b) {\n  int result = a + b;\n  return result;\n}</string>
+    <string name="fivePara8">Function Call
+</string>
+    <string name="fivePara9">To use a function in C++, you need to call it from within your program. A function call consists of the function name and the values of the input parameters. Here"'"s an example of calling the sum function:</string>
+    <string name="fivePara10">int a = 5, b = 7;\nint total = sum(a, b);</string>
+    <string name="fivePara11">In this example, the sum function is called with the values of a and b as input parameters. The return value of the function is then assigned to the variable total.</string>
+    <string name="fivePara12">Function Overloading
+</string>
+    <string name="fivePara13">C++ allows you to define multiple functions with the same name, as long as they have different input parameters. This is called function overloading. When you call an overloaded function, the compiler automatically chooses the correct function based on the input parameters that you provide.</string>
+    <string name="fivePara14">Here"'"s an example of overloading the sum function:
 
-<!--        <string name="fiveTitle">Functions</string>-->
-<!--        <string name="fivePara1">Introduction:</string>-->
-<!--        <string name="fivePara2">Functions are a fundamental concept in C++. A function is a block of code that performs a specific task and can be called from other parts of the program. Functions are used to reduce code duplication, improve code organization, and make code easier to read and maintain.</string>-->
-<!--        <string name="fivePara3">Defining a Function:</string>-->
-<!--        <string name="fivePara4">To define a function in C++, you need to specify the function's return type, name, and parameter list. The parameter list specifies the input to the function, and the return type specifies the type of value that the function returns (if any). Here is the general syntax for defining a function:</string>-->
-<!--        <string name="fivePara5">return_type function_name(parameter_list) {</string>-->
-<!--        <string name="fivePara6">  // function body-->
-<!--</string>-->
-<!--        <string name="fivePara7">  return return_value;-->
-<!--</string>-->
-<!--        <string name="fivePara8">}</string>-->
-<!--        <string name="fivePara9">Here's an example of a function that takes two integers as input and returns their sum:</string>-->
-<!--        <string name="fivePara10">int sum(int a, int b) {</string>-->
-<!--        <string name="fivePara11">  int result = a + b;</string>-->
-<!--        <string name="fivePara12">  return result;</string>-->
-<!--        <string name="fivePara13">}</string>-->
-<!--        <string name="fivePara14">Calling a Function:-->
-<!--</string>-->
-<!--        <string name="fivePara15">To call a function in C++, you need to specify the function's name and provide the required arguments (if any). Here's an example of calling the sum() function we defined earlier:</string>-->
-<!--        <string name="fivePara16">int a = 5;</string>-->
-<!--        <string name="fivePara17"></string>-->
-<!--        <string name="fivePara18"></string>-->
-<!--        <string name="fivePara19"></string>-->
-<!--        <string name="fivePara20"></string>-->
-<!--        <string name="fivePara21"></string>-->
-<!--        <string name="fivePara22"></string>-->
-<!--        <string name="fivePara23"></string>-->
-<!--        <string name="fivePara24"></string>-->
-<!--        <string name="fivePara25"></string>-->
-<!--        <string name="fivePara26"></string>-->
-<!--        <string name="fivePara27"></string>-->
-<!--        <string name="fivePara28"></string>-->
-<!--        <string name="fivePara29"></string>-->
-<!--        <string name="fivePara30"></string>-->
-<!--        <string name="fivePara31"></string>-->
-<!--        <string name="fivePara32"></string>-->
-<!--        <string name="fivePara33"></string>-->
-<!--        <string name="fivePara34"></string>-->
-<!--        <string name="fivePara35"></string>-->
-<!--        <string name="fivePara36"></string>-->
-<!--        <string name="fivePara37"></string>-->
-<!--        <string name="fivePara38"></string>-->
-<!--        <string name="fivePara39"></string>-->
-<!--        <string name="fivePara40"></string>-->
-<!--        <string name="fivePara41"></string>-->
-<!--        <string name="fivePara42"></string>-->
-<!--        <string name="fivePara43"></string>-->
-<!--        <string name="fivePara44"></string>-->
-<!--        <string name="fivePara45"></string>-->
-<!--        <string name="fivePara46"></string>-->
-<!--        <string name="fivePara47"></string>-->
+</string>
+    <string name="fivePara15">int sum(int a, int b) {\n  return a + b;\n}\n\ndouble sum(double a, double b) {\n  return a + b;\n</string>
+    <string name="fivePara16">In this example, two versions of the sum function are defined: one that takes two integer parameters, and one that takes two double parameters. When you call the sum function with integer parameters, the first version of the function is used. When you call it with double parameters, the second version is used.</string>
+    <string name="fivePara17">Conclusion
+</string>
+    <string name="fivePara18">Functions are an essential part of C++ programming. They allow you to break down complex tasks into smaller, more manageable pieces of code, and they can be reused throughout your program. Understanding how to define, call, and overload functions is critical for any C++ developer.</string>
 
 
 
 
 
-    </resources>
+</resources>

@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,37 +6,178 @@
     android:orientation="vertical"
     >
 
+    <TextView        android:layout_marginTop="50dp"
+        android:id="@+id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:text="@string/fourteenTitle"
+        android:textSize="40dp"
+        android:layout_width="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/fourteenPara1"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:fontFamily="monospace"
+        android:text="@string/fourteenPara1"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:layout_width="wrap_content"
+        />
+    <TextView        android:id="@+id/fourteenPara2"
+        android:layout_below="@+id/fourteenPara1"
+        android:layout_height="wrap_content"
+        android:text="@string/fourteenPara2"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+        />
+    <TextView        android:id="@+id/fourteenPara3"
+        android:layout_below="@+id/fourteenPara2"
+        android:layout_height="wrap_content"
+        android:text="@string/fourteenPara3"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="match_parent"
+        android:textColor="#ff5a68"
+        android:background="@color/black"
+
+        />
+    <TextView        android:id="@+id/fourteenPara4"
+        android:layout_below="@+id/fourteenPara3"
+
+        android:layout_height="wrap_content"
+        android:text="@string/fourteenPara4"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+
+        />
+
+    <TextView        android:id="@+id/fourteenPara5"
+        android:layout_below="@+id/fourteenPara4"
+        android:layout_height="wrap_content"
+        android:text="@string/fourteenPara5"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+        />
+
+    <!--    code related-->
+    <TextView
+        android:id="@+id/fourteenPara6"
+        android:layout_below="@+id/fourteenPara5"
+
+        android:layout_height="wrap_content"
+        android:text="@string/fourteenPara6"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="match_parent"
+        android:textColor="#ff5a68"
+        android:background="@color/black"
+        />
+    <TextView        android:id="@+id/fourteenPara7"
+        android:layout_below="@+id/fourteenPara6"
+
+        android:layout_height="wrap_content"
+        android:text="@string/fourteenPara7"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+        />
+    <TextView        android:id="@+id/fourteenPara8"
+        android:layout_below="@+id/fourteenPara7"
+
+        android:layout_height="wrap_content"
+        android:text="@string/fourteenPara8"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+        />
+    <TextView        android:id="@+id/fourteenPara9"
+        android:layout_below="@+id/fourteenPara8"
+
+        android:layout_height="wrap_content"
+        android:text="@string/fourteenPara9"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+        />
+    <TextView        android:id="@+id/fourteenPara10"
+        android:layout_below="@+id/fourteenPara9"
+
+        android:layout_height="wrap_content"
+        android:text="@string/fourteenPara10"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="match_parent"
+        android:textColor="#ff5a68"
+        android:background="@color/black"
+        />
+    <TextView        android:id="@+id/fourteenPara11"
+        android:layout_below="@+id/fourteenPara10"
+
+        android:layout_height="wrap_content"
+        android:text="@string/fourteenPara11"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+        />
+    <TextView        android:id="@+id/fourteenPara12"
+        android:layout_below="@+id/fourteenPara11"
+
+        android:layout_height="wrap_content"
+        android:text="@string/fourteenPara12"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+        />
 
 
-    <RelativeLayout
-        android:layout_marginTop="100dp"
+
+
+
+    <TextView        android:layout_height="40dp"
+        android:layout_below="@+id/fourteenPara12"
+        android:layout_width="wrap_content"
+        />
+    <RelativeLayout        android:layout_marginTop="100dp"
         android:id="@+id/footer"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:layout_alignParentBottom="true"
-        android:background="@drawable/footer_img"
-        android:gravity="center" >
-        <Button
 
-            android:paddingRight="10dp"
-            android:layout_marginRight="100dp"
+        android:gravity="center" >
+
+        <ImageButton            android:layout_marginLeft="-40dp"
+            android:layout_marginRight="190dp"
             android:id="@+id/btn1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="mark Complete"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/done"
 
             />
-        <Button
+        <ImageButton
             android:layout_toRightOf="@+id/btn1"
             android:id="@+id/btn2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Next"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/next"
 
             />
 
-
     </RelativeLayout>
-
 
 </RelativeLayout>

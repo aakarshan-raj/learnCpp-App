@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,37 +6,344 @@
     android:orientation="vertical"
     >
 
+    <TextView        android:layout_marginTop="50dp"
+        android:id="@+id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:text="@string/sixTitle"
+        android:textSize="40dp"
+        android:layout_width="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/sevenPara1"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:fontFamily="monospace"
+        android:text="@string/sevenPara1"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:layout_width="wrap_content"
+        />
+    <TextView        android:id="@+id/sevenPara2"
+        android:layout_below="@+id/sevenPara1"
+        android:layout_height="wrap_content"
+        android:text="@string/sevenPara2"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+        />
+    <TextView        android:id="@+id/sevenPara3"
+        android:layout_below="@+id/sevenPara2"
+        android:layout_height="wrap_content"
+        android:text="@string/sevenPara3"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+
+        />
+    <TextView        android:id="@+id/sevenPara4"
+        android:layout_below="@+id/sevenPara3"
+
+        android:layout_height="wrap_content"
+        android:text="@string/sevenPara4"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+
+        />
+
+    <TextView        android:id="@+id/sevenPara5"
+        android:layout_below="@+id/sevenPara4"
+        android:layout_height="wrap_content"
+        android:text="@string/sevenPara5"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="match_parent"
+        android:textColor="#ff5a68"
+        android:background="@color/black"
+        />
+
+    <!--    code related-->
+    <TextView
+        android:id="@+id/sevenPara6"
+        android:layout_below="@+id/sevenPara5"
+
+        android:layout_height="wrap_content"
+        android:text="@string/sevenPara6"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+        />
+    <TextView        android:id="@+id/sevenPara7"
+        android:layout_below="@+id/sevenPara6"
+
+        android:layout_height="wrap_content"
+        android:text="@string/sevenPara7"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+        />
+    <TextView        android:id="@+id/sevenPara8"
+        android:layout_below="@+id/sevenPara7"
+
+        android:layout_height="wrap_content"
+        android:text="@string/sevenPara8"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+        />
+    <TextView        android:id="@+id/sevenPara9"
+        android:layout_below="@+id/sevenPara8"
+
+        android:layout_height="wrap_content"
+        android:text="@string/sevenPara9"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+        />
+    <TextView        android:id="@+id/sevenPara10"
+        android:layout_below="@+id/sevenPara9"
+
+        android:layout_height="wrap_content"
+        android:text="@string/sevenPara10"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="match_parent"
+        android:textColor="#ff5a68"
+        android:background="@color/black"
+        />
+    <TextView        android:id="@+id/sevenPara11"
+        android:layout_below="@+id/sevenPara10"
+
+        android:layout_height="wrap_content"
+        android:text="@string/sevenPara11"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+        />
+    <TextView        android:id="@+id/sevenPara12"
+        android:layout_below="@+id/sevenPara11"
+
+        android:layout_height="wrap_content"
+        android:text="@string/sevenPara12"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="match_parent"
+        android:textColor="#ff5a68"
+        android:background="@color/black"
+        />
+    <TextView        android:id="@+id/sevenPara13"
+        android:layout_below="@+id/sevenPara12"
+
+        android:layout_height="wrap_content"
+        android:text="@string/sevenPara13"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+        />
+    <TextView        android:id="@+id/sevenPara14"
+        android:layout_below="@+id/sevenPara13"
+
+        android:layout_height="wrap_content"
+        android:text="@string/sevenPara14"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+        />
+    <TextView        android:id="@+id/sevenPara15"
+        android:layout_below="@+id/sevenPara14"
+
+        android:layout_height="wrap_content"
+        android:text="@string/sevenPara15"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+        />
+    <TextView        android:id="@+id/sevenPara16"
+        android:layout_below="@+id/sevenPara15"
+
+        android:layout_height="wrap_content"
+        android:text="@string/sevenPara16"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+        />
+    <TextView        android:id="@+id/sevenPara17"
+        android:layout_below="@+id/sevenPara16"
+
+        android:layout_height="wrap_content"
+        android:text="@string/sevenPara17"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="match_parent"
+        android:textColor="#ff5a68"
+        android:background="@color/black"
+        />
+    <TextView        android:id="@+id/sevenPara18"
+        android:layout_below="@+id/sevenPara17"
+
+        android:layout_height="wrap_content"
+        android:text="@string/sevenPara18"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+        />
+    <TextView        android:id="@+id/sevenPara19"
+        android:layout_below="@+id/sevenPara18"
+
+        android:layout_height="wrap_content"
+        android:text="@string/sevenPara19"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+        />
+    <TextView        android:id="@+id/sevenPara20"
+        android:layout_below="@+id/sevenPara19"
+
+        android:layout_height="wrap_content"
+        android:text="@string/sevenPara20"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="match_parent"
+        android:textColor="#ff5a68"
+        android:background="@color/black"
+        />
+    <TextView        android:id="@+id/sevenPara21"
+        android:layout_below="@+id/sevenPara20"
+
+        android:layout_height="wrap_content"
+        android:text="@string/sevenPara21"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+        />
+    <TextView        android:id="@+id/sevenPara22"
+        android:layout_below="@+id/sevenPara21"
+
+        android:layout_height="wrap_content"
+        android:text="@string/sevenPara22"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+        />
+    <TextView        android:id="@+id/sevenPara23"
+        android:layout_below="@+id/sevenPara22"
+
+        android:layout_height="wrap_content"
+        android:text="@string/sevenPara23"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+        />
+    <TextView        android:id="@+id/sevenPara24"
+        android:layout_below="@+id/sevenPara23"
+        android:layout_height="wrap_content"
+        android:text="@string/sevenPara24"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+        />
 
 
-    <RelativeLayout
-        android:layout_marginTop="100dp"
+    <TextView        android:id="@+id/sevenPara25"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sevenPara24"
+        android:fontFamily="monospace"
+        android:text="@string/sevenPara25"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:layout_width="match_parent"
+        android:textColor="#ff5a68"
+        android:background="@color/black"
+        />
+    <TextView        android:id="@+id/sevenPara26"
+        android:layout_below="@+id/sevenPara25"
+        android:layout_height="wrap_content"
+        android:text="@string/sevenPara26"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+        />
+    <TextView        android:id="@+id/sevenPara27"
+        android:layout_below="@+id/sevenPara26"
+        android:layout_height="wrap_content"
+        android:text="@string/sevenPara27"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+
+        />
+    <TextView        android:id="@+id/sevenPara28"
+        android:layout_below="@+id/sevenPara27"
+
+        android:layout_height="wrap_content"
+        android:text="@string/sevenPara28"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+
+        />
+
+
+
+
+
+    <TextView        android:layout_height="40dp"
+        android:layout_below="@+id/sevenPara28"
+        android:layout_width="wrap_content"
+        />
+    <RelativeLayout        android:layout_marginTop="100dp"
         android:id="@+id/footer"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:layout_alignParentBottom="true"
-        android:background="@drawable/footer_img"
-        android:gravity="center" >
-        <Button
 
-            android:paddingRight="10dp"
-            android:layout_marginRight="100dp"
+        android:gravity="center" >
+
+        <ImageButton            android:layout_marginLeft="-40dp"
+            android:layout_marginRight="190dp"
             android:id="@+id/btn1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="mark Complete"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/done"
 
             />
-        <Button
+        <ImageButton
             android:layout_toRightOf="@+id/btn1"
             android:id="@+id/btn2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Next"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/next"
 
             />
 
-
     </RelativeLayout>
-
 
 </RelativeLayout>
