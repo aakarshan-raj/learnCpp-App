@@ -34,11 +34,7 @@ class Debug : Fragment() {
 
         }
         btn2?.setOnClickListener {
-            val nextFragment = End()
-            val trans: FragmentTransaction = requireFragmentManager().beginTransaction()
-            trans.replace(R.id.frame,nextFragment)
-            (activity as? AppCompatActivity)?.supportActionBar?.title = getString(R.string.sixteen)
-            trans.commit()
+            Toast.makeText(activity,"Last Chapter Completed!",Toast.LENGTH_LONG).show()
         }
 
         return vieww

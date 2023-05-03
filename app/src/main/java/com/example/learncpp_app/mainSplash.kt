@@ -14,9 +14,6 @@ class mainSplash : AppCompatActivity() {
             WindowManager.LayoutParams.FLAG_FULLSCREEN,
             WindowManager.LayoutParams.FLAG_FULLSCREEN
         )
-
-
-
         Handler().postDelayed({
             val i = Intent(
                 this@mainSplash,

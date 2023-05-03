@@ -44,13 +44,14 @@ class MainActivity : AppCompatActivity() {
         navigationView.setNavigationItemSelectedListener {
             when (it.itemId) {
                 R.id.zero -> {
-                    mainScreen()
+                    supportFragmentManager.beginTransaction().replace(R.id.frame, start())
+                        .commit()
+                    supportActionBar?.setTitle(getString(R.string.zero))
+                    drawerLayout.closeDrawers()
+
                 }
                 R.id.one -> {
-                    supportFragmentManager.beginTransaction().replace(R.id.frame, Introduction())
-                        .commit()
-                    supportActionBar?.setTitle(getString(R.string.one))
-                    drawerLayout.closeDrawers()
+                    mainScreen()
                 }
 
                 R.id.two -> {
@@ -135,11 +136,7 @@ class MainActivity : AppCompatActivity() {
                     supportActionBar?.setTitle(getString(R.string.fifteen))
                     drawerLayout.closeDrawers()
                 }
-                R.id.sixteen -> {
-                    supportFragmentManager.beginTransaction().replace(R.id.frame, End()).commit()
-                    supportActionBar?.setTitle(getString(R.string.sixteen))
-                    drawerLayout.closeDrawers()
-                }
+
             }
             return@setNavigationItemSelectedListener true
         }
