@@ -118,7 +118,7 @@ class start : Fragment() {
             val nextFragment = start()
             val trans: FragmentTransaction = requireFragmentManager().beginTransaction()
             trans.replace(R.id.frame,nextFragment)
-            (activity as? AppCompatActivity)?.supportActionBar?.title = "Learn C++"
+            (activity as? AppCompatActivity)?.supportActionBar?.title = "Progress"
             trans.commit()
 
         }
